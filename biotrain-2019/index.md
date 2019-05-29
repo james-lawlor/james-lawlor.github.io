@@ -15,7 +15,7 @@ Please ensure you have the following software and data on the computer you inten
 1. Make sure you have access to a [Bash Shell](http://swcarpentry.github.io/shell-novice/setup.html) (use [Git BASH](https://gitforwindows.org/) for Windows); and download the [data-shell.zip](http://swcarpentry.github.io/shell-novice/setup.html) file
 2. Install a) R, b) RStudio, and c) download the r-novice-inflammation data
 
-9am-10am: An Introduction to Biology with Computers 
+**9am-10am**: An Introduction to Biology with Computers 
 
 10am-12pm: Introduction to the unix shell
 
