@@ -15,8 +15,9 @@
 Please ensure you have the following software and data on the computer you intend to use during the workshop:
 1. Make sure you have access to a [Bash Shell](http://swcarpentry.github.io/shell-novice/setup.html) (use [Git BASH](https://gitforwindows.org/) for Windows); and download the [data-shell.zip](http://swcarpentry.github.io/shell-novice/setup.html) file
 2. Install: 
-  1. [R Programming Language](https://cloud.r-project.org/)
-  2. b) [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download), and c) download the [r-novice-inflammation](https://swcarpentry.github.io/r-novice-inflammation/setup.html) data
+  * a) [R Programming Language](https://cloud.r-project.org/)
+  * b) [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download) 
+  * c) download the [r-novice-inflammation](https://swcarpentry.github.io/r-novice-inflammation/setup.html) data
 
 
 **9am-9:50am**: Bootcamp Introduction & An Introduction to Biology with Computers  
@@ -60,25 +61,30 @@ Check these shell lessons out if you:
 
 
 Check these R lessons out if you:
-* want to practice more R programming with the inflammation data set used during bootcamp
-* are interested in R programming lessons for reproducible scientific analysis
+* [want to practice more R programming with the inflammation data set used during bootcamp](http://swcarpentry.github.io/r-novice-inflammation/)
+* [are interested in R programming lessons for reproducible scientific analysis](https://datacarpentry.org/lessons/)
 
 ### Windows-Specific Tips & Gotchas
 * Copy & Paste:
-* On windows, you are used to ctrl+c and ctrl+v to copy and paste. This will not work in Git-Bash window because ctrl+c and ctrl + v have different meanings in Unix
-* To copy:
-  * Select text in the git-bash window with the mouse, and it will automatically be copied
-  * Or, use the left-click menu
-  * Use ctrl+insert (some laptops may not have this as a separate key)
-* To paste:
-  * Click with the middle mouse button
-  * Or, use the left-click menu
-  * Use shift+insert (some laptops may not have this as a separate key)
+  * On windows, you are used to `ctrl+c` and `ctrl+v` to copy and paste. This will not work in Git-Bash window because `ctrl+c` and `ctrl+v` have different meanings in Unix
+  * To copy:
+    * Select text in the git-bash window with the mouse, and it will automatically be copied
+    * Or, use the left-click menu
+    * Use `ctrl+insert` (some laptops may not have this as a separate key)
+  * To paste:
+    * Click with the middle mouse button
+    * Or, use the left-click menu
+    * Use shift+insert (some laptops may not have this as a separate key)
+* Git-Bash represents Windows-style paths (with backslashes, `\`), like `C:\Users\James`, in the Unix style (with forward slashes, `/`), like `/c/Users/James`
+* The `ls` command should work on Git-Bash 2.2.1.0, but if not, use `dir`
+* Unzipping `data-shell.zip`: You want to end up with a folder on your Desktop called `data-shell`, and inside it, folders like `creatures` and `molecules` and files like `notes.txt`. Some versions of Windows may automatically unzip the file such that you have a folder `data-shell` inside another folder called `data-shell` which may become confusing. See "Detailed Windows Setup Instructions" below.
+
+### Detailed Windows Setup Instructions
 
 ### Acknowledgements
-*Presenters:*
+**Presenters:**
  - James Lawlor, Computational Biologist in the Greg Cooper Lab at HudsonAlpha
  - Bryan Moyers, Postdoctoral Researcher in the Rick Myers Lab at HudsonAlpha
 
-*Course Development*
-Course content adapted from the Software Carpentries lessons and the 2018 Bootcamp organized by Brittany Lasseigene, PhD, Assistant Professor at the University of Alabama in Birmingham
+**Course Development**  
+Course content adapted from the Software Carpentries lessons and the 2018 Bootcamp organized by [Brittany Lasseigene, PhD](https://www.lasseigne.org), Assistant Professor at the [University of Alabama in Birmingham](https://www.uab.edu/home/)
