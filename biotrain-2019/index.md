@@ -1,7 +1,11 @@
 # 2019 HudsonAlpha BioTrain Computational Biology Bootcamp
+![full-4.jpg]
+
 **Logistics**: The Bootcamp is Monday, June 3, 2019 in the McCrary Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way) from 8a - 4:30p
 
 **Objective/Rationale:** This one day workshop is intended to provide HudsonAlpha BioTrain interns and graduate rotation students an introduction to computational biology through a discussion on why computers are necessary in genomics, short unix shell and R tutorials followed by hands-on exercises [The Carpentries lessons](https://carpentries.org/), and tips on how to ask for help, keeping a computational lab notebook, and finding additional learning resources. 
+
+**Prerequisites**: Curiosity about computational biology and a basic understanding of the ideas of files and directories (folders). Access to a laptop (talk to Michelle Morris if you need to borrow one). Ability to use your favorite web browser to download and install the necessary software and data (see below).
 
 ### May 30, 2019 & May 31, 2019:
 **Lunch**: Computer set-up. James and/or Bryan will be around to help make sure computers are set up for next week.
@@ -80,6 +84,10 @@ Check these R lessons out if you:
 * Unzipping `data-shell.zip`: You want to end up with a folder on your Desktop called `data-shell`, and inside it, folders like `creatures` and `molecules` and files like `notes.txt`. Some versions of Windows may automatically unzip the file such that you have a folder `data-shell` inside another folder called `data-shell` which may become confusing. See "Detailed Windows Setup Instructions" below.
 
 ### Detailed-Windows-Setup-Instructions
+1. Download the [Git for Windows](https://gitforwindows.org/) installer (version 2.2.1.0). The download link should automatically choose the right installer for your version of Windows.
+2. Navigate to your Downloads folder and run the installer.
+3. Git 2.2.1.0 Setup: Use the default options in the "Select Components" screen. Choose the Nano editor for the default editor. Use the default options in the following screens.
+
 
 ### Acknowledgements
 **Presenters:**
