@@ -25,7 +25,7 @@ Please ensure you have the following software and data on the computer you inten
 
 
 **9am-9:50am**: Bootcamp Introduction & An Introduction to Biology with Computers  
-slides: [Powerpoint](intro-to-computational-biology.pptx) PDF  
+slides: [Powerpoint](Biotrain-2019-Intro-Comp-Bio.pptx) PDF  
 *James Lawlor and Bryan Moyers*
 
 **9:50am**: Break
