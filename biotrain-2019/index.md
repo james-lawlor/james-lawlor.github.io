@@ -7,6 +7,15 @@
 
 **Prerequisites**: Curiosity about computational biology and a basic understanding of the ideas of files and directories (folders). Access to a laptop (talk to Michelle Morris if you need to borrow one). Ability to use your favorite web browser to download and install the necessary software and data (see below).
 
+### Acknowledgements
+**Presenters:**
+- [James Lawlor](mailto:jlawlor@hudsonalpha.org), Computational Biologist in the Greg Cooper Lab at HudsonAlpha
+- [Bryan Moyers](mailto:bmoyers@hudsonalpha.org), Postdoctoral Researcher in the Rick Myers Lab at HudsonAlpha
+
+**Course Development**  
+Course content adapted from the Software Carpentries lessons and the 2018 Bootcamp organized by [Brittany Lasseigene, PhD](https://www.lasseigne.org), Assistant Professor at the [University of Alabama in Birmingham](https://www.uab.edu/home/)
+
+
 ### May 30, 2019 & May 31, 2019:
 **Lunch**: Computer set-up. James and/or Bryan will be around to help make sure computers are set up for next week.
 
@@ -92,10 +101,3 @@ Check these R lessons out if you:
 7. Use the Start Menu or Desktop icon to open Git Bash or R Studio. 
 
 
-### Acknowledgements
-**Presenters:**
- - James Lawlor, Computational Biologist in the Greg Cooper Lab at HudsonAlpha
- - Bryan Moyers, Postdoctoral Researcher in the Rick Myers Lab at HudsonAlpha
-
-**Course Development**  
-Course content adapted from the Software Carpentries lessons and the 2018 Bootcamp organized by [Brittany Lasseigene, PhD](https://www.lasseigne.org), Assistant Professor at the [University of Alabama in Birmingham](https://www.uab.edu/home/)
