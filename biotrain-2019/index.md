@@ -11,57 +11,71 @@
 ### June 3, 2019:
 
 **8am-9am**: Computer set-up This can be done anytime before bootcamp begins, but helpers will be available during this hour.
+
+[Detailed Windows Setup Instructions](windows.html)
+
 Please ensure you have the following software and data on the computer you intend to use during the workshop:
 1. Make sure you have access to a [Bash Shell](http://swcarpentry.github.io/shell-novice/setup.html) (use [Git BASH](https://gitforwindows.org/) for Windows); and download the [data-shell.zip](http://swcarpentry.github.io/shell-novice/setup.html) file
-2. Install a) R, b) RStudio, and c) download the r-novice-inflammation data
-
-**9am-10am**: An Introduction to Biology with Computers 
-
-10am-12pm: Introduction to the unix shell
-
-[Introducing the Shell](http://swcarpentry.github.io/shell-novice/01-intro/)
-
-[Navigating Files and Directories](http://swcarpentry.github.io/shell-novice/02-filedir/)
-
-[Working with Files and Directories](http://swcarpentry.github.io/shell-novice/03-create/)
-
-*Aside:*
-1. Accessing the HudsonAlpha Compute Cluster
-
-12pm-12:30pm: Keeping a Computational Lab Notebook & How to Get Programming Help (slides)
-
-12:30pm-1:30pm: Lunch
-
-1:30pm-4:00pm: Programming with R
-
-[Analyzing Biology Data](http://swcarpentry.github.io/r-novice-inflammation/01-starting-with-data/)
-
-[Writing Functions](http://swcarpentry.github.io/r-novice-inflammation/02-func-R/)
-
-[Analyzing Multiple Data Sets](http://swcarpentry.github.io/r-novice-inflammation/03-loops-R/)
-
-4pm-4:30pm: What Now? (Continued Learning) (slides)
+2. Install a) [R Programming Language](https://cloud.r-project.org/), b) [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download), and c) download the [r-novice-inflammation](https://swcarpentry.github.io/r-novice-inflammation/setup.html) data
 
 
+**9am-9:50am**: Bootcamp Introduction & An Introduction to Biology with Computers
+*James Lawlor and Bryan Moyers*
+
+**9:50am**: Break
+
+**10am-12pm**: Introduction to the Unix Shell
+*James Lawlor*
+
+* [Introducing the Shell](http://swcarpentry.github.io/shell-novice/01-intro/)
+* [Navigating Files and Directories](http://swcarpentry.github.io/shell-novice/02-filedir/)
+* [Working with Files and Directories](http://swcarpentry.github.io/shell-novice/03-create/)
+* Stretch Goal: Demo [Pipes](http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) and [Loops](http://swcarpentry.github.io/shell-novice/05-loop/index.html)
+
+**12pm-12:30pm**: Keeping a Computational Lab Notebook & How to Get Programming Help (slides)
+**Aside**: Accessing the HudsonAlpha Compute Cluster
+*James Lawlor*
+
+**12:30pm-1:30pm**: Lunch
+
+**1:30pm-4:00pm**: Programming with R
+*Bryan Moyers*
+
+* [Analyzing Biology Data](http://swcarpentry.github.io/r-novice-inflammation/01-starting-with-data/)
+* [Writing Functions](http://swcarpentry.github.io/r-novice-inflammation/02-func-R/)
+* [Analyzing Multiple Data Sets](http://swcarpentry.github.io/r-novice-inflammation/03-loops-R/)
+
+**4pm-4:30pm**: What Now? (Continued Learning) (slides)
 
 
-More Practice (and see ‘What Now?’ slides above):
 
+
+### More Practice :
+See the "What Now?" slides above.
 
 Check these shell lessons out if you:
-
--want to combine existing shell commands
-
--perform the same action on many files in the shell
-
--need to save and reuse shell commands
+* want to combine existing shell commands: [Pipes and Filters](http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html)
+* perform the same action on many files in the shell: [Loops](http://swcarpentry.github.io/shell-novice/05-loop/index.html)
+* need to save and reuse shell commands: [Shell Scripts](http://swcarpentry.github.io/shell-novice/06-script/index.html)
 
 
 Check these R lessons out if you:
--want to practice more R programming with the inflammation data set used during bootcamp
+* want to practice more R programming with the inflammation data set used during bootcamp
+* are interested in R programming lessons for reproducible scientific analysis
 
--are interested in R programming lessons for reproducible scientific analysis
+### Windows-Specific Tips & Gotchas
+* Copy & Paste:
+* On windows, you are used to ctrl+c and ctrl+v to copy and paste. This will not work in Git-Bash window because ctrl+c and ctrl + v have different meanings in Unix
+* To copy:
+  * Select text in the git-bash window with the mouse, and it will automatically be copied
+  * Or, use the left-click menu
+  * Use ctrl+insert (some laptops may not have this as a separate key)
+* To paste:
+  * Click with the middle mouse button
+  * Or, use the left-click menu
+  * Use shift+insert (some laptops may not have this as a separate key)
 
+### Acknowledgements
 *Presenters:*
  - James Lawlor, Computational Biologist in the Greg Cooper Lab at HudsonAlpha
  - Bryan Moyers, Postdoctoral Researcher in the Rick Myers Lab at HudsonAlpha
