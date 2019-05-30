@@ -20,7 +20,6 @@ Please ensure you have the following software and data on the computer you inten
 
 
 **9am-9:50am**: Bootcamp Introduction & An Introduction to Biology with Computers
-
 *James Lawlor and Bryan Moyers*
 
 **9:50am**: Break
@@ -31,7 +30,7 @@ Please ensure you have the following software and data on the computer you inten
 * [Introducing the Shell](http://swcarpentry.github.io/shell-novice/01-intro/)
 * [Navigating Files and Directories](http://swcarpentry.github.io/shell-novice/02-filedir/)
 * [Working with Files and Directories](http://swcarpentry.github.io/shell-novice/03-create/)
-* Stretch Goal: Demo [Pipes](http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) and [Loops](http://swcarpentry.github.io/shell-novice/05-loop/index.html)
+* **Stretch Goal**: Demo [Pipes](http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) and [Loops](http://swcarpentry.github.io/shell-novice/05-loop/index.html)
 
 **12pm-12:30pm**: Keeping a Computational Lab Notebook & How to Get Programming Help (slides)
 **Aside**: Accessing the HudsonAlpha Compute Cluster
