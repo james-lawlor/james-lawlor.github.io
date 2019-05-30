@@ -10,7 +10,7 @@
 
 **8am-9am**: Computer set-up This can be done anytime before bootcamp begins, but helpers will be available during this hour.
 
-[Detailed Windows Setup Instructions](windows.html)
+[Detailed Windows Setup Instructions](#detailed-windows-setup-instructions)
 
 Please ensure you have the following software and data on the computer you intend to use during the workshop:
 1. Make sure you have access to a [Bash Shell](http://swcarpentry.github.io/shell-novice/setup.html) (use [Git BASH](https://gitforwindows.org/) for Windows); and download the [data-shell.zip](http://swcarpentry.github.io/shell-novice/setup.html) file
@@ -79,7 +79,7 @@ Check these R lessons out if you:
 * The `ls` command should work on Git-Bash 2.2.1.0, but if not, use `dir`
 * Unzipping `data-shell.zip`: You want to end up with a folder on your Desktop called `data-shell`, and inside it, folders like `creatures` and `molecules` and files like `notes.txt`. Some versions of Windows may automatically unzip the file such that you have a folder `data-shell` inside another folder called `data-shell` which may become confusing. See "Detailed Windows Setup Instructions" below.
 
-### Detailed Windows Setup Instructions
+### Detailed-Windows-Setup-Instructions
 
 ### Acknowledgements
 **Presenters:**
