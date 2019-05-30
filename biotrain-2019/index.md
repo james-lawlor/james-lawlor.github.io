@@ -47,9 +47,10 @@ Please ensure you have the following software and data on the computer you inten
 * [Working with Files and Directories](http://swcarpentry.github.io/shell-novice/03-create/)
 * **Stretch Goal**: Demo [Pipes](http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) and [Loops](http://swcarpentry.github.io/shell-novice/05-loop/index.html)
 
-**12pm-12:30pm**: Keeping a Computational Lab Notebook & How to Get Programming Help  (slides: [Powerpoint](Lab-Notebook-and-Programming-Help.pptx))
-**Aside**: Accessing the HudsonAlpha Compute Cluster
-If you need to access the HudsonAlpha Compute Cluster, have your supervisor email Chris King at [cking@hudsonalpha.org](mailto:cking@hudsonalpha.org)
+**12pm-12:30pm**: Keeping a Computational Lab Notebook & How to Get Programming Help  (slides: [Powerpoint](Lab-Notebook-and-Programming-Help.pptx))  
+
+**Aside**: Accessing the HudsonAlpha Compute Cluster  
+If you need to access the HudsonAlpha Compute Cluster, have your supervisor email Chris King at [cking@hudsonalpha.org](mailto:cking@hudsonalpha.org)  
 *James Lawlor*
 
 **12:30pm-1:30pm**: Lunch
