@@ -24,7 +24,7 @@ Please ensure you have the following software and data on the computer you inten
   * c) download the [r-novice-inflammation](https://swcarpentry.github.io/r-novice-inflammation/setup.html) data
 
 
-**9am-9:50am**: Bootcamp Introduction & An Introduction to Biology with Computers  
+**9am-9:50am**: Bootcamp Introduction & An Introduction to Biology with Computers  (slides: [Powerpoint](intro-to-computational-biology.pptx), [PDF])
 *James Lawlor and Bryan Moyers*
 
 **9:50am**: Break
@@ -51,8 +51,6 @@ Please ensure you have the following software and data on the computer you inten
 * [Analyzing Multiple Data Sets](http://swcarpentry.github.io/r-novice-inflammation/03-loops-R/)
 
 **4pm-4:30pm**: What Now? (Continued Learning) (slides)
-
-
 
 
 ### More Practice :
@@ -84,9 +82,13 @@ Check these R lessons out if you:
 * Unzipping `data-shell.zip`: You want to end up with a folder on your Desktop called `data-shell`, and inside it, folders like `creatures` and `molecules` and files like `notes.txt`. Some versions of Windows may automatically unzip the file such that you have a folder `data-shell` inside another folder called `data-shell` which may become confusing. See "Detailed Windows Setup Instructions" below.
 
 ### Detailed-Windows-Setup-Instructions
-1. Download the [Git for Windows](https://gitforwindows.org/) installer (version 2.2.1.0). The download link should automatically choose the right installer for your version of Windows.
-2. Navigate to your Downloads folder and run the installer.
-3. Git 2.2.1.0 Setup: Use the default options in the "Select Components" screen. Choose the Nano editor for the default editor. Use the default options in the following screens.
+1. Download the [Git for Windows](https://gitforwindows.org/) installer (version 2.2.1.0). The download link should automatically choose the right installer for your version of Windows. Navigate to your Downloads folder and run the installer.
+2. Git 2.2.1.0 Setup: Use the default options in the "Select Components" screen. Choose the Nano editor for the default editor. Use the default options in the following screens.
+3. Install R: [R Programming Language](https://cloud.r-project.org/). Click links for "Download R for Windows" and then "install R for the first time" and then the "Download R 3.6.0 for Windows" link to download the file. Navigate to your Downloads folder and run the installer.
+4. Install RStudio: [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download). Choose the download link "RStudio 1.2.1335 - Windows 7+ (64-bit)". (This should work on Windows systems from the past several years.)
+5. Download the [data-shell](http://swcarpentry.github.io/shell-novice/data/data-shell.zip) data. Navigate to your Downloads folder and double-click the zip archive to open. Depending on your Windows setup, it should open as if it were a folder called `data-shell.zip` and contain a regular folder called `data-shell`. Select and drag this `data-shell` folder onto your Desktop. 
+6. Download the [r-novice-inflammation.zip](https://swcarpentry.github.io/r-novice-inflammation/setup.html) data. Navigate to your Downloads folder and double-click the zip archive to open. Depending on your Windows setup, it should open as if it were a folder called r-novice-inflammation.zip and contain a regular folder called `r-novice-inflammation`. Select and drag this `r-novice-inflammation` file onto your desktop.
+7. Use the Start Menu or Desktop icon to open Git Bash or R Studio. 
 
 
 ### Acknowledgements
