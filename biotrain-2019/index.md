@@ -19,12 +19,12 @@ Please ensure you have the following software and data on the computer you inten
 2. Install a) [R Programming Language](https://cloud.r-project.org/), b) [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download), and c) download the [r-novice-inflammation](https://swcarpentry.github.io/r-novice-inflammation/setup.html) data
 
 
-**9am-9:50am**: Bootcamp Introduction & An Introduction to Biology with Computers
+**9am-9:50am**: Bootcamp Introduction & An Introduction to Biology with Computers  
 *James Lawlor and Bryan Moyers*
 
 **9:50am**: Break
 
-**10am-12pm**: Introduction to the Unix Shell
+**10am-12pm**: Introduction to the Unix Shell  
 *James Lawlor*
 
 * [Introducing the Shell](http://swcarpentry.github.io/shell-novice/01-intro/)
@@ -32,13 +32,13 @@ Please ensure you have the following software and data on the computer you inten
 * [Working with Files and Directories](http://swcarpentry.github.io/shell-novice/03-create/)
 * **Stretch Goal**: Demo [Pipes](http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) and [Loops](http://swcarpentry.github.io/shell-novice/05-loop/index.html)
 
-**12pm-12:30pm**: Keeping a Computational Lab Notebook & How to Get Programming Help (slides)
-**Aside**: Accessing the HudsonAlpha Compute Cluster
+**12pm-12:30pm**: Keeping a Computational Lab Notebook & How to Get Programming Help (slides)  
+**Aside**: Accessing the HudsonAlpha Compute Cluster  
 *James Lawlor*
 
 **12:30pm-1:30pm**: Lunch
 
-**1:30pm-4:00pm**: Programming with R
+**1:30pm-4:00pm**: Programming with R  
 *Bryan Moyers*
 
 * [Analyzing Biology Data](http://swcarpentry.github.io/r-novice-inflammation/01-starting-with-data/)
