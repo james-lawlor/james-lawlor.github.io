@@ -1,9 +1,7 @@
 # 2019 HudsonAlpha BioTrain Computational Biology Bootcamp
 **Logistics**: The Bootcamp is Monday, June 3, 2019 in the McCrary Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way) from 8a - 4:30p
 
-*Objective/Rationale:* This one day workshop is intended to provide HudsonAlpha undergraduate student BioTrain interns and graduate rotation students an introduction to computational biology through a discussion on why computers are necessary in genomics, short unix shell and R tutorials followed by hands-on exercises [The Carpentries lessons](https://carpentries.org/), and tips on how to ask for help, keeping a computational lab notebook, and finding additional learning resources. 
-
-
+**Objective/Rationale:** This one day workshop is intended to provide HudsonAlpha BioTrain interns and graduate rotation students an introduction to computational biology through a discussion on why computers are necessary in genomics, short unix shell and R tutorials followed by hands-on exercises [The Carpentries lessons](https://carpentries.org/), and tips on how to ask for help, keeping a computational lab notebook, and finding additional learning resources. 
 
 ### May 30, 2019 & May 31, 2019:
 **Lunch**: Computer set-up. James and/or Bryan will be around to help make sure computers are set up for next week.
@@ -16,7 +14,9 @@
 
 Please ensure you have the following software and data on the computer you intend to use during the workshop:
 1. Make sure you have access to a [Bash Shell](http://swcarpentry.github.io/shell-novice/setup.html) (use [Git BASH](https://gitforwindows.org/) for Windows); and download the [data-shell.zip](http://swcarpentry.github.io/shell-novice/setup.html) file
-2. Install a) [R Programming Language](https://cloud.r-project.org/), b) [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download), and c) download the [r-novice-inflammation](https://swcarpentry.github.io/r-novice-inflammation/setup.html) data
+2. Install: 
+  1. [R Programming Language](https://cloud.r-project.org/)
+  2. b) [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download), and c) download the [r-novice-inflammation](https://swcarpentry.github.io/r-novice-inflammation/setup.html) data
 
 
 **9am-9:50am**: Bootcamp Introduction & An Introduction to Biology with Computers  
