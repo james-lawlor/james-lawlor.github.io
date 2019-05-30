@@ -1,5 +1,5 @@
 # 2019 HudsonAlpha BioTrain Computational Biology Bootcamp
-![full-4.jpg]
+![2018 Bootcamp Photo](full-4.jpg)
 
 **Logistics**: The Bootcamp is Monday, June 3, 2019 in the McCrary Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way) from 8a - 4:30p
 
