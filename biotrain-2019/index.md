@@ -7,7 +7,6 @@
 
 **Prerequisites**: Curiosity about computational biology and a basic understanding of the ideas of files and directories (folders). Access to a laptop (talk to Michelle Morris if you need to borrow one). Ability to use your favorite web browser to download and install the necessary software and data (see below).
 
-### Acknowledgements
 **Presenters:**
 - [James Lawlor](mailto:jlawlor@hudsonalpha.org), Computational Biologist in the Greg Cooper Lab at HudsonAlpha
 - [Bryan Moyers](mailto:bmoyers@hudsonalpha.org), Postdoctoral Researcher in the Rick Myers Lab at HudsonAlpha
@@ -15,6 +14,7 @@
 **Course Development**  
 Course content adapted from the Software Carpentries lessons and the 2018 Bootcamp organized by [Brittany Lasseigene, PhD](https://www.lasseigne.org), Assistant Professor at the [University of Alabama in Birmingham](https://www.uab.edu/home/)
 
+**Note**: As of May 30 / May 31, slides on this page are still preliminary.
 
 ### May 30, 2019 & May 31, 2019:
 **Lunch**: Computer set-up. James and/or Bryan will be around to help make sure computers are set up for next week.
@@ -50,7 +50,7 @@ Please ensure you have the following software and data on the computer you inten
 **12pm-12:30pm**: Keeping a Computational Lab Notebook & How to Get Programming Help  (slides: [Powerpoint](Lab-Notebook-and-Programming-Help.pptx))  
 
 **Aside**: Accessing the HudsonAlpha Compute Cluster  
-If you need to access the HudsonAlpha Compute Cluster, have your supervisor email Chris King at [cking@hudsonalpha.org](mailto:cking@hudsonalpha.org)  
+If you need to access the HudsonAlpha Compute Cluster, have your supervisor email Chris King at [cking@hudsonalpha.org](mailto:cking@hudsonalpha.org) (and please be sure to mention that you're a BioTrain intern)  
 *James Lawlor*
 
 **12:30pm-1:30pm**: Lunch
