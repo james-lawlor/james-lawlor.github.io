@@ -48,6 +48,7 @@ Please ensure you have the following software and data on the computer you inten
 * **Stretch Goal**: Demo [Pipes](http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) and [Loops](http://swcarpentry.github.io/shell-novice/05-loop/index.html)
 
 **12pm-12:30pm**: Keeping a Computational Lab Notebook & How to Get Programming Help  (slides: [Powerpoint](Lab-Notebook-and-Programming-Help.pptx))  
+*James Lawlor*
 
 **Aside**: Accessing the HudsonAlpha Compute Cluster  
 If you need to access the HudsonAlpha Compute Cluster, have your supervisor email Chris King at [cking@hudsonalpha.org](mailto:cking@hudsonalpha.org) (and please be sure to mention that you're a BioTrain intern)  
@@ -55,14 +56,17 @@ If you need to access the HudsonAlpha Compute Cluster, have your supervisor emai
 
 **12:30pm-1:30pm**: Lunch
 
-**1:30pm-4:00pm**: Programming with R  
+**1:30pm-1:45pm**: Bryan Moyers Computational Research (Slides: [Powerpoint](Myers-Lab-Comp-Bio.pptx)
+
+**1:45pm-4:00pm**: Programming with R  
 *Bryan Moyers*
 
 * [Analyzing Biology Data](http://swcarpentry.github.io/r-novice-inflammation/01-starting-with-data/)
 * [Writing Functions](http://swcarpentry.github.io/r-novice-inflammation/02-func-R/)
 * [Analyzing Multiple Data Sets](http://swcarpentry.github.io/r-novice-inflammation/03-loops-R/)
 
-**4pm-4:30pm**: What Now? (Continued Learning) (slides: Powerpoint / PDF)
+**4pm-4:30pm**: What Now? (Continued Learning) (slides: [Powerpoint](What-Now-Continued-Learning.pptx)  
+*Bryan Moyers*
 
 
 ### More Practice :
