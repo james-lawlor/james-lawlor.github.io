@@ -82,7 +82,7 @@ Check these R lessons out if you:
 
 Other useful resources:
 * [Codeacademy: Learn the Command Line](https://www.codecademy.com/learn/learn-the-command-line)
-* [LinuxCommand.org](https://www.linuxcommand.org)
+* [LinuxCommand.org](http://linuxcommand.org)
 * [Coursera: Unix Workbench](https://www.coursera.org/learn/unix)
 * [DataCamp: Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
 * [ExplainShell.com](https://explainshell.com/) - Breaks down and explains shell commands you enter
