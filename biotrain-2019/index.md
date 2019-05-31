@@ -14,8 +14,6 @@
 **Course Development**  
 Course content adapted from the Software Carpentries lessons and the 2018 Bootcamp organized by [Brittany Lasseigene, PhD](https://www.lasseigne.org), Assistant Professor at the [University of Alabama in Birmingham](https://www.uab.edu/home/)
 
-**Note**: As of May 30 / May 31, slides on this page are still preliminary.
-
 ### May 30, 2019 & May 31, 2019:
 **Lunch**: Computer set-up. James and/or Bryan will be around to help make sure computers are set up for next week.
 
@@ -34,7 +32,7 @@ Please ensure you have the following software and data on the computer you inten
 
 
 **9am-9:50am**: Bootcamp Introduction & An Introduction to Biology with Computers  
-(slides: [Powerpoint](Biotrain-2019-Intro-Comp-Bio.pptx))
+(slides: [Powerpoint](Biotrain-2019-Intro-Comp-Bio.pptx))  
 *James Lawlor and Bryan Moyers*
 
 **9:50am**: Break
@@ -56,7 +54,7 @@ If you need to access the HudsonAlpha Compute Cluster, have your supervisor emai
 
 **12:30pm-1:30pm**: Lunch
 
-**1:30pm-1:45pm**: Bryan Moyers Computational Research (Slides: [Powerpoint](Myers-Lab-Comp-Bio.pptx)
+**1:30pm-1:45pm**: Bryan Moyers Computational Research (Slides: [Powerpoint](Myers-Lab-Comp-Bio.pptx))
 
 **1:45pm-4:00pm**: Programming with R  
 *Bryan Moyers*
@@ -65,7 +63,7 @@ If you need to access the HudsonAlpha Compute Cluster, have your supervisor emai
 * [Writing Functions](http://swcarpentry.github.io/r-novice-inflammation/02-func-R/)
 * [Analyzing Multiple Data Sets](http://swcarpentry.github.io/r-novice-inflammation/03-loops-R/)
 
-**4pm-4:30pm**: What Now? (Continued Learning) (slides: [Powerpoint](What-Now-Continued-Learning.pptx)  
+**4pm-4:30pm**: What Now? (Continued Learning) (slides: [Powerpoint](What-Now-Continued-Learning.pptx))  
 *Bryan Moyers*
 
 
@@ -81,6 +79,20 @@ Check these shell lessons out if you:
 Check these R lessons out if you:
 * [want to practice more R programming with the inflammation data set used during bootcamp](http://swcarpentry.github.io/r-novice-inflammation/)
 * [are interested in R programming lessons for reproducible scientific analysis](https://datacarpentry.org/lessons/)
+
+Other useful resources:
+* [Codeacademy: Learn the Command Line](https://www.codecademy.com/learn/learn-the-command-line)
+* [LinuxCommand.org](https://www.linuxcommand.org)
+* [Coursera: Unix Workbench](https://www.coursera.org/learn/unix)
+* [DataCamp: Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
+* [ExplainShell.com](https://explainshell.com/) - Breaks down and explains shell commands you enter
+* [Hitchhiker's Guide to Python](https://docs.python-guide.org/)
+* [Regular Expression Tester & Debugger](https://regex101.com/)
+* [R for Data Science](https://r4ds.had.co.nz/) 
+* [The BioStar Handbook](https://www.biostarhandbook.com/)
+* [Book: Bioinformatics Data Skills](http://shop.oreilly.com/product/0636920030157.do)
+* [EBI Next-Generation Sequencing Practical Course](https://www.ebi.ac.uk/training/online/course/ebi-next-generation-sequencing-practical-course)
+
 
 ### Windows-Specific Tips & Gotchas
 * Copy & Paste:
