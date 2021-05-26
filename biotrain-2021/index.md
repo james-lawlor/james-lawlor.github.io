@@ -1,7 +1,7 @@
 # 2021 HudsonAlpha BioTrain Computational Biology Bootcamp
 ![2018 Bootcamp Photo](full-4.jpg)
 
-**Logistics**: The Bootcamp is Wednesday, June 2, 2021 and Thursday, June 3, 2021 (two half-days) in the McCrary Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way) from 7:45am - 12:15pm on day one and 8:00am to 12:15pm on day two.
+**Logistics**: The Bootcamp is Wednesday, June 2, 2021 and Thursday, June 3, 2021 (two half-days) in the Chan Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way) from 7:45am - 12:15pm on day one and 8:00am to 12:15pm on day two.
 
 **COVID-19 Safety**: We will follow the current Institute guidelines for COVID-19 best practices. Students and instructors will wear masks and practice physical distancing.
 
