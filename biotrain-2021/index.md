@@ -3,6 +3,8 @@
 
 **Logistics**: The Bootcamp is Wednesday, June 2, 2021 and Thursday, June 3, 2021 (two half-days) in the McCrary Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way) from 7:45am - 12:15pm on day one and 8:00am to 12:15pm on day two.
 
+**COVID-19 Safety**: We will follow the current Institute guidelines for COVID-19 best practices. Students and instructors will wear masks and practice physical distancing.
+
 **Objective/Rationale:** This one day workshop is intended to provide HudsonAlpha BioTrain interns and graduate rotation students an introduction to computational biology through a discussion on why computers are necessary in genomics, short unix shell and R tutorials followed by hands-on exercises [The Carpentries lessons](https://carpentries.org/), and tips on how to ask for help, keeping a computational lab notebook, and finding additional learning resources.
 
 **Prerequisites**: Curiosity about computational biology and a basic understanding of the ideas of files and directories (folders). Access to a laptop (talk to Michelle Morris if you need to borrow one). Ability to use your favorite web browser to download and install the necessary software and data (see below).
@@ -58,10 +60,10 @@ Please ensure you have the following software and data on the computer you inten
 ## Thursday, June 3, 2021:
 
 **8:00am - 8:30am** Keeping a Computational Lab Notebook
-*Bryan Moyers*
+*James Lawlor*
 
 
-**8:30a - 8:45am**: Bryan Moyers Computational Research (Slides: [Powerpoint](Myers-Lab-Comp-Bio.pptx))
+**8:30a - 8:45am**: Bryan Moyers Computational Research (Slides: TBD)
 
 **8:45am - 9:45am**: Programming with R
 *Bryan Moyers*
