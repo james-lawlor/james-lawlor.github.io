@@ -7,7 +7,10 @@
 
 **Objective/Rationale:** This one day workshop is intended to provide HudsonAlpha BioTrain interns and graduate rotation students an introduction to computational biology through a discussion on why computers are necessary in genomics, short unix shell and R tutorials followed by hands-on exercises [The Carpentries lessons](https://carpentries.org/), and tips on how to ask for help, keeping a computational lab notebook, and finding additional learning resources.
 
-**Prerequisites**: Curiosity about computational biology and a basic understanding of the ideas of files and directories (folders). Access to a laptop (talk to Michelle Morris if you need to borrow one). Ability to use your favorite web browser to download and install the necessary software and data (see below).
+**Prerequisites**:
+- Curiosity about computational biology and a basic understanding of the ideas of files and directories (folders).
+- Access to a laptop (talk to Michelle Morris if you need to borrow one).
+- Ability to use your favorite web browser to download and install the necessary software and data (see below). 
 
 **Presenters:**
 - [James Lawlor](mailto:jlawlor@hudsonalpha.org), Computational Biologist in the Greg Cooper Lab at HudsonAlpha
@@ -25,8 +28,10 @@ Course content adapted from the Software Carpentries lessons and the 2018 Bootca
 
 [Detailed Windows Setup Instructions](#detailed-windows-setup-instructions)
 
+[Mac: Changing your shell to bash](#setting-up-bash-shell-on-mac)
+
 Please ensure you have the following software and data on the computer you intend to use during the workshop:
-1. Make sure you have access to a [Bash Shell](http://swcarpentry.github.io/shell-novice/setup.html) (use [Git BASH](https://gitforwindows.org/) for Windows); and download the [data-shell.zip](http://swcarpentry.github.io/shell-novice/setup.html) file
+1. Make sure you have access to a [Bash Shell](http://swcarpentry.github.io/shell-novice/setup.html) (use [Git BASH](https://gitforwindows.org/) for Windows; Terminal is the built-in program for Mac, however we will need to change the shell to bash); and download the [data-shell.zip](http://swcarpentry.github.io/shell-novice/setup.html) file
 2. Install:
   * a) [R Programming Language](https://cloud.r-project.org/)
   * b) [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download)
@@ -129,10 +134,30 @@ Other useful resources:
 * Unzipping `data-shell.zip`: You want to end up with a folder on your Desktop called `data-shell`, and inside it, folders like `creatures` and `molecules` and files like `notes.txt`. Some versions of Windows may automatically unzip the file such that you have a folder `data-shell` inside another folder called `data-shell` which may become confusing. See "Detailed Windows Setup Instructions" below.
 
 ### Detailed-Windows-Setup-Instructions
-1. Download the [Git for Windows](https://gitforwindows.org/) installer (version 2.2.1.0). The download link should automatically choose the right installer for your version of Windows. Navigate to your Downloads folder and run the installer.
-2. Git 2.2.1.0 Setup: Use the default options in the "Select Components" screen. Choose the Nano editor for the default editor. Use the default options in the following screens.
-3. Install R: [R Programming Language](https://cloud.r-project.org/). Click links for "Download R for Windows" and then "install R for the first time" and then the "Download R 3.6.0 for Windows" link to download the file. Navigate to your Downloads folder and run the installer.
-4. Install RStudio: [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download). Choose the download link "RStudio 1.2.1335 - Windows 7+ (64-bit)". (This should work on Windows systems from the past several years.)
-5. Download the [data-shell](http://swcarpentry.github.io/shell-novice/data/data-shell.zip) data. Navigate to your Downloads folder and double-click the zip archive to open. Depending on your Windows setup, it should open as if it were a folder called `data-shell.zip` and contain a regular folder called `data-shell`. Select and drag this `data-shell` folder onto your Desktop.
-6. Download the [r-novice-inflammation.zip](https://swcarpentry.github.io/r-novice-inflammation/setup.html) data. Navigate to your Downloads folder and double-click the zip archive to open. Depending on your Windows setup, it should open as if it were a folder called r-novice-inflammation.zip and contain a regular folder called `r-novice-inflammation`. Select and drag this `r-novice-inflammation` file onto your desktop.
-7. Use the Start Menu or Desktop icon to open Git Bash or R Studio.
+1. We will be installing the most recent versions of all the software listed. Most likely, the exact version numbers won't be important, but version numbers from May 2021 are listed below for clarity. Most versions of Windows will ask "do you want to allow this program to make changes to your computer" when you're installing software. We will use default options on the install wizards except for step 2.
+2. Download the [Git for Windows](https://gitforwindows.org/) installer (version 2.31.1). The download link should automatically choose the right installer for your version of Windows. Navigate to your Downloads folder and run the installer.
+3. Git 2.2.1.0 Setup: Use the default options in the "Select Components" screen and "Select Start Menu Folder". ***Choose "use the Nano editor by default***" at the "Choosing the default editor used by Git" screen. Use the default options in the following several screens.
+4. Install R: [R Programming Language](https://cloud.r-project.org/). Click links for "Download R for Windows" and then "install R for the first time" and then the "Download R 4.1.0 for Windows" link to download the file. Navigate to your Downloads folder and run the installer. You will need to allow the installer to make changes to your computer, and you do not need to change any of the default installation options.
+5. Install RStudio: [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download). Choose the download link "Download RStudio For Windows". (This should work on Windows systems from the past several years.)
+6. Download the [data-shell](http://swcarpentry.github.io/shell-novice/data/data-shell.zip) data. Navigate to your Downloads folder and double-click the zip archive to open. Depending on your Windows setup, it should open as if it were a folder called `data-shell.zip` and contain a regular folder called `data-shell`. Select and drag this `data-shell` folder onto your Desktop.
+7. Make a new folder on your desktop called `r-novice-inflammation`. You can do this by right-clicking on the Desktop, going to "New" and choosing "Folder". Then type in the name and hit enter.
+8. Download the [r-novice-inflammation.zip](https://swcarpentry.github.io/r-novice-inflammation/data/r-novice-inflammation-data.zip) data. Navigate to your Downloads folder and double-click the zip archive to open. Depending on your Windows setup, it should open as if it were a folder called r-novice-inflammation.zip and contain a regular folder called `data`. Select and drag this `data` file into the `r-novice-inflammation` folder you made.
+9. Return to your desktop. Double click on the `data-shell` folder. You should see contents including `creatures` `data` `molecules` etc. Double click on the `r-novice-inflammation` folder. Inside you should see a single folder called `data`. Inside `data` you should see `car-speeds`, `car-speeds-cleaned` etc.
+10. **If you see an extra folder in step 9**: Some versions of Windows will extract the zip with an extraneous folder, such as `data-shell` with another `data-shell` folder inside. If this happens, rename the folder on the desktop to something like `old-data-shell` and then drag the `data-shell` folder onto your desktop.  
+10. Use the Start Menu or Desktop icon to open Git Bash or R Studio.
+
+### Setting up Bash Shell on Mac
+1. A few years ago, MacOS changed the default shell to `zsh` instead of `bash`. The two are similar, but for clarity we will use bash.
+2. Open the Terminal app
+3. At the prompt, type `chsh -s /bin/bash` and hit enter. You should see "changing shell for <username>"
+4. You will be asked to enter your password, then hit enter. If there are no errors, you will be back at the prompt.
+5. Close Terminal and then re-open. You should see in the title bar of the window that it says "Terminal -- -bash"
+6. **Note**: This change will persist for your user profile. If you want to change it back after the bootcamp, you will use the command `chsh -s /bin/zsh`
+
+### Setting up R and RStudio on MacOS
+1. Click on the Mac icon at the top left of your menu bar and choose "About this Mac". Under "Processor" look for whether it says Intel or M1. (M1 is found only on brand-new systems.) Then close the window.
+2. Go to [R Programming Language](https://cloud.r-project.org/) and select "Download R for MacOS". On this page, choose the first option `R-4.1.0.pkg`if you have an Intel processor. Choose the second option `R-4.1.0-arm64.pkg ` if you have a M1 processor.
+3. Open the pkg file from your Downloads folder and click through the installation wizard with default options. You may need to enter your password.
+4. Go to [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download). Click "Download RStudio for Mac".
+5. Open the pkg file. You will see a window open up with an RStudio icon which you will drag into the applications folder.
+6. Use the launchpad to open Rstudio. You may see a notification that Rstudio was downloaded from the internet. If so, click "open".
