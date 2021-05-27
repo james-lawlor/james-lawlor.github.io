@@ -10,7 +10,7 @@
 **Prerequisites**:
 - Curiosity about computational biology and a basic understanding of the ideas of files and directories (folders).
 - Access to a laptop (talk to Michelle Morris if you need to borrow one).
-- Ability to use your favorite web browser to download and install the necessary software and data (see below). 
+- Ability to use your favorite web browser to download and install the necessary software and data (see below).
 
 **Presenters:**
 - [James Lawlor](mailto:jlawlor@hudsonalpha.org), Computational Biologist in the Greg Cooper Lab at HudsonAlpha
@@ -130,7 +130,7 @@ Other useful resources:
     * Or, use the left-click menu
     * Use shift+insert (some laptops may not have this as a separate key)
 * Git-Bash represents Windows-style paths (with backslashes, `\`), like `C:\Users\James`, in the Unix style (with forward slashes, `/`), like `/c/Users/James`
-* The `ls` command should work on Git-Bash 2.2.1.0, but if not, use `dir`
+* The `ls` command should work on Git-Bash, but if not, use `dir`
 * Unzipping `data-shell.zip`: You want to end up with a folder on your Desktop called `data-shell`, and inside it, folders like `creatures` and `molecules` and files like `notes.txt`. Some versions of Windows may automatically unzip the file such that you have a folder `data-shell` inside another folder called `data-shell` which may become confusing. See "Detailed Windows Setup Instructions" below.
 
 ### Detailed-Windows-Setup-Instructions
