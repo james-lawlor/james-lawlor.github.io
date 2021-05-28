@@ -1,6 +1,13 @@
 # 2021 HudsonAlpha BioTrain Computational Biology Bootcamp
 ![2018 Bootcamp Photo](full-4.jpg)
 
+**Webpage Updates**
+- 05/28/2021:
+  - Clarification: Default installation options may be used for all steps in installing Git For Windows.
+  - Clarification: On MacOS, you can access the bash shell by entering the bash command into the terminal after opening. Changing the default shell to bash is optional.
+  - Update: Myers Lab Computational Biology slides updated. (Day 2)
+- 05/27/2021: Updated installation instructions for Windows and Mac.
+
 **Logistics**: The Bootcamp is Wednesday, June 2, 2021 and Thursday, June 3, 2021 (two half-days) in the Chan Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way) from 7:45am - 12:15pm on day one and 8:00am to 12:15pm on day two.
 
 **COVID-19 Safety**: We will follow the current Institute guidelines for COVID-19 best practices. Students and instructors will wear masks and practice physical distancing.
@@ -68,7 +75,7 @@ Please ensure you have the following software and data on the computer you inten
 *James Lawlor*
 
 
-**8:30a - 8:45am**: Bryan Moyers Computational Research (Slides: TBD)
+**8:30a - 8:45am**: Bryan Moyers Computational Research (Slides: [Myers Lab Computational Biology](Myers-Lab-Comp-Bio-4_2021June04.pptx))
 
 **8:45am - 9:45am**: Programming with R
 *Bryan Moyers*
@@ -134,9 +141,9 @@ Other useful resources:
 * Unzipping `data-shell.zip`: You want to end up with a folder on your Desktop called `data-shell`, and inside it, folders like `creatures` and `molecules` and files like `notes.txt`. Some versions of Windows may automatically unzip the file such that you have a folder `data-shell` inside another folder called `data-shell` which may become confusing. See "Detailed Windows Setup Instructions" below.
 
 ### Detailed-Windows-Setup-Instructions
-1. We will be installing the most recent versions of all the software listed. Most likely, the exact version numbers won't be important, but version numbers from May 2021 are listed below for clarity. Most versions of Windows will ask "do you want to allow this program to make changes to your computer" when you're installing software. We will use default options on the install wizards except for step 2.
+1. We will be installing the most recent versions of all the software listed. Most likely, the exact version numbers won't be important, but version numbers from May 2021 are listed below for clarity. Most versions of Windows will ask "do you want to allow this program to make changes to your computer" when you're installing software. We will use default options on the install wizards.
 2. Download the [Git for Windows](https://gitforwindows.org/) installer (version 2.31.1). The download link should automatically choose the right installer for your version of Windows. Navigate to your Downloads folder and run the installer.
-3. Git 2.2.1.0 Setup: Use the default options in the "Select Components" screen and "Select Start Menu Folder". ***Choose "use the Nano editor by default***" at the "Choosing the default editor used by Git" screen. Use the default options in the following several screens.
+3. Git 2.2.1.0 Setup: Use the default options in the "Select Components" screen and "Select Start Menu Folder". Use the default options in the following several screens.
 4. Install R: [R Programming Language](https://cloud.r-project.org/). Click links for "Download R for Windows" and then "install R for the first time" and then the "Download R 4.1.0 for Windows" link to download the file. Navigate to your Downloads folder and run the installer. You will need to allow the installer to make changes to your computer, and you do not need to change any of the default installation options.
 5. Install RStudio: [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download). Choose the download link "Download RStudio For Windows". (This should work on Windows systems from the past several years.)
 6. Download the [data-shell](http://swcarpentry.github.io/shell-novice/data/data-shell.zip) data. Navigate to your Downloads folder and double-click the zip archive to open. Depending on your Windows setup, it should open as if it were a folder called `data-shell.zip` and contain a regular folder called `data-shell`. Select and drag this `data-shell` folder onto your Desktop.
@@ -149,10 +156,12 @@ Other useful resources:
 ### Setting up Bash Shell on Mac
 1. A few years ago, MacOS changed the default shell to `zsh` instead of `bash`. The two are similar, but for clarity we will use bash.
 2. Open the Terminal app
-3. At the prompt, type `chsh -s /bin/bash` and hit enter. You should see "changing shell for <username>"
-4. You will be asked to enter your password, then hit enter. If there are no errors, you will be back at the prompt.
-5. Close Terminal and then re-open. You should see in the title bar of the window that it says "Terminal -- -bash"
-6. **Note**: This change will persist for your user profile. If you want to change it back after the bootcamp, you will use the command `chsh -s /bin/zsh`
+3. At the prompt, type `bash` and hit enter.
+4. If you want to change your default shell to bash, so that you don't have to type the bash command every time you use terminal, follow steps 5-8.
+5. At the prompt, type `chsh -s /bin/bash` and hit enter. You should see "changing shell for <username>"
+6. You will be asked to enter your password, then hit enter. If there are no errors, you will be back at the prompt.
+7. Close Terminal and then re-open. You should see in the title bar of the window that it says "Terminal -- -bash"
+8. **Note**: This change will persist for your user profile. If you want to change it back after the bootcamp, you will use the command `chsh -s /bin/zsh`
 
 ### Setting up R and RStudio on MacOS
 1. Click on the Mac icon at the top left of your menu bar and choose "About this Mac". Under "Processor" look for whether it says Intel or M1. (M1 is found only on brand-new systems.) Then close the window.
