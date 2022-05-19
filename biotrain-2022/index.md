@@ -1,14 +1,11 @@
-# 2021 HudsonAlpha BioTrain Computational Biology Bootcamp
+# 2022 HudsonAlpha BioTrain Computational Biology Bootcamp
 ![2018 Bootcamp Photo](full-4.jpg)
 
 **Webpage Updates**
-- 05/28/2021:
-  - Clarification: Default installation options may be used for all steps in installing Git For Windows.
-  - Clarification: On MacOS, you can access the bash shell by entering the bash command into the terminal after opening. Changing the default shell to bash is optional.
-  - Update: Myers Lab Computational Biology slides updated. (Day 2)
-- 05/27/2021: Updated installation instructions for Windows and Mac.
+- 05/19/2022:
+  - Deployed website for 2022
 
-**Logistics**: The Bootcamp is Wednesday, June 2, 2021 and Thursday, June 3, 2021 (two half-days) in the Chan Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way) from 7:45am - 12:15pm on day one and 8:00am to 12:15pm on day two.
+**Logistics**: The Bootcamp is Wednesday, June 1, 2022 and Thursday, June 2, 2022 (two half-days) in the Chan Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way) from 8:00am - 12:15pm each day.
 
 **COVID-19 Safety**: We will follow the current Institute guidelines for COVID-19 best practices. Students and instructors will wear masks and practice physical distancing.
 
@@ -20,18 +17,18 @@
 - Ability to use your favorite web browser to download and install the necessary software and data (see below).
 
 **Presenters:**
-- [James Lawlor](mailto:jlawlor@hudsonalpha.org), Computational Biologist in the Greg Cooper Lab at HudsonAlpha
-- [Bryan Moyers](mailto:bmoyers@hudsonalpha.org), Postdoctoral Researcher in the Rick Myers Lab at HudsonAlpha
+- [James Lawlor](mailto:jlawlor@hudsonalpha.org) (he/him), Computational Biologist in the Greg Cooper Lab at HudsonAlpha
+- [Belle Moyers](mailto:bmoyers@hudsonalpha.org), (she/her) Senior Scientist in the Rick Myers Lab at HudsonAlpha
 
 **Course Development**
 Course content adapted from the Software Carpentries lessons and the 2018 Bootcamp organized by [Brittany Lasseigene, PhD](https://www.lasseigne.org), Assistant Professor at the [University of Alabama in Birmingham](https://www.uab.edu/home/)
 
-### Tuesday, June 1, 2021:
-**Lunch**: Computer set-up. James and/or Bryan will be around to help make sure computers are set up.
+### Tuesday, May 31, 2022:
+**Lunch**: Computer set-up. James and/or Belle will be around to help make sure computers are set up.
 
-### Wednesday, June 2, 2021:
+### Wednesday, June 1, 2022:
 
-**7:45am - 8:15am**: Computer set-up This can be done anytime before bootcamp begins, but helpers will be available during this hour.
+**8:00am - 8:15am**: Computer set-up This can be done anytime before bootcamp begins, but helpers will be available d.
 
 [Detailed Windows Setup Instructions](#detailed-windows-setup-instructions)
 
@@ -45,57 +42,57 @@ Please ensure you have the following software and data on the computer you inten
   * c) download the [r-novice-inflammation](https://swcarpentry.github.io/r-novice-inflammation/setup.html) data
 
 
-**8:15am - 9:15am**: Bootcamp Introduction & An Introduction to Biology with Computers
-(slides: [Powerpoint](Biotrain-2021-Intro-Comp-Bio.pptx))
-*James Lawlor*
-
-**9:50am**: Break
-
-**9:15am - 10:15am**: Introduction to the Unix Shell
-*James Lawlor*
-
-* [Introducing the Shell](http://swcarpentry.github.io/shell-novice/01-intro/)
-* [Navigating Files and Directories](http://swcarpentry.github.io/shell-novice/02-filedir/)
-
-**10:15am - 10:30am**: Break
-
-**10:30am - 11:30am**: Unix Shell Continued
-*James Lawlor*
-
-* [Working with Files and Directories](http://swcarpentry.github.io/shell-novice/03-create/)
-* **Stretch Goal**: Demo [Pipes](http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) and [Loops](http://swcarpentry.github.io/shell-novice/05-loop/index.html)
-
-**11:30am - 12:15pm**: How to Get Programming Help  (slides: [Powerpoint](Lab-Notebook-and-Programming-Help.pptx))
-*James Lawlor*
+**8:15am - 9:15am**: Bootcamp Introduction & An Introduction to Biology with Computers and Belle Moyers Computational Research
+(slides: )
+*James Lawlor and Belle Moyers*
 
 
-## Thursday, June 3, 2021:
-
-**8:00am - 8:30am** Keeping a Computational Lab Notebook
-*James Lawlor*
-
-
-**8:30a - 8:45am**: Bryan Moyers Computational Research (Slides: [Myers Lab Computational Biology](Myers-Lab-Comp-Bio-4_2021June04.pptx))
-
-**8:45am - 9:45am**: Programming with R
-*Bryan Moyers*
+**9:15am - 10:15am**
+*Belle Moyers*
 
 * [Analyzing Biology Data](http://swcarpentry.github.io/r-novice-inflammation/01-starting-with-data/)
 * [Writing Functions](http://swcarpentry.github.io/r-novice-inflammation/02-func-R/)
 * [Analyzing Multiple Data Sets](http://swcarpentry.github.io/r-novice-inflammation/03-loops-R/)
 
+
+**10:15am - 10:30am**: Break
+
+**10:30am - 11:30am**: Programming with R, continued
+*Belle Moyers*
+
+
+
+
+**11:30am - 12:15pm**: How to Get Programming Help (slides:)
+*James Lawlor*
+
+
+## Thursday, June 2, 2022:
+
+**8:00am - 8:30am** Keeping a Computational Lab Notebook
+*James Lawlor*
+
+**8:30am - 8:45am** James Lawlor Computational Research
+*James Lawlor*
+
+
+**8:45-9:45**: Introduction to the Unix Shell
+*James Lawlor*
+
+* [Introducing the Shell](http://swcarpentry.github.io/shell-novice/01-intro/)
+* [Navigating Files and Directories](http://swcarpentry.github.io/shell-novice/02-filedir/)
+
 **9:45am - 10:00am**: Break
 
-**10:00am - 11:00am**: Programming with R, continued
-*Bryan Moyers*
 
-**11:45am - 12:15pm**: What Now? (Continued Learning) (slides: [Powerpoint](What-Now-Continued-Learning.pptx))
-*Bryan Moyers*
+**10:00 - 11:45am**: Unix Shell Continued
+*James Lawlor*
 
+* [Working with Files and Directories](http://swcarpentry.github.io/shell-novice/03-create/)
+* **Stretch Goal**: Demo [Pipes](http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) and [Loops](http://swcarpentry.github.io/shell-novice/05-loop/index.html)
 
-**Aside**: Accessing the HudsonAlpha Compute Cluster
-If you need to access the HudsonAlpha Compute Cluster, have your supervisor email Chris King at [cking@hudsonalpha.org](mailto:cking@hudsonalpha.org) (and please be sure to mention that you're a BioTrain intern)
-
+**11:45am - 12:15pm**: What Now? (Continued Learning) (slides: )
+*James Lawlor*
 
 
 ### More Practice :
