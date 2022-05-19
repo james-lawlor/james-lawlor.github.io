@@ -7,7 +7,7 @@
 
 **Logistics**: The Bootcamp is Wednesday, June 1, 2022 and Thursday, June 2, 2022 (two half-days) in the Chan Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way) from 8:00am - 12:15pm each day.
 
-**COVID-19 Safety**: We will follow the current Institute guidelines for COVID-19 best practices. Students and instructors will wear masks and practice physical distancing.
+**COVID-19 Safety**: We will follow the current Institute guidelines for COVID-19 based on the current CDC status for our area. Masks will be optional for students.
 
 **Objective/Rationale:** This one day workshop is intended to provide HudsonAlpha BioTrain interns and graduate rotation students an introduction to computational biology through a discussion on why computers are necessary in genomics, short unix shell and R tutorials followed by hands-on exercises [The Carpentries lessons](https://carpentries.org/), and tips on how to ask for help, keeping a computational lab notebook, and finding additional learning resources.
 
@@ -47,9 +47,8 @@ Please ensure you have the following software and data on the computer you inten
 *James Lawlor and Belle Moyers*
 
 
-**9:15am - 10:15am**
+**9:15am - 10:15am**: Programming with R
 *Belle Moyers*
-
 * [Analyzing Biology Data](http://swcarpentry.github.io/r-novice-inflammation/01-starting-with-data/)
 * [Writing Functions](http://swcarpentry.github.io/r-novice-inflammation/02-func-R/)
 * [Analyzing Multiple Data Sets](http://swcarpentry.github.io/r-novice-inflammation/03-loops-R/)
@@ -60,19 +59,16 @@ Please ensure you have the following software and data on the computer you inten
 **10:30am - 11:30am**: Programming with R, continued
 *Belle Moyers*
 
-
-
-
 **11:30am - 12:15pm**: How to Get Programming Help (slides:)
-*James Lawlor*
+*Belle Moyers*
 
 
 ## Thursday, June 2, 2022:
 
-**8:00am - 8:30am** Keeping a Computational Lab Notebook
+**8:00am - 8:30am** James Lawlor Computational Research
 *James Lawlor*
 
-**8:30am - 8:45am** James Lawlor Computational Research
+**8:30am - 8:45am** Keeping a Computational Lab Notebook
 *James Lawlor*
 
 
