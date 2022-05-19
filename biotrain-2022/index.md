@@ -23,9 +23,6 @@
 **Course Development**
 Course content adapted from the Software Carpentries lessons and the 2018 Bootcamp organized by [Brittany Lasseigene, PhD](https://www.lasseigne.org), Assistant Professor at the [University of Alabama in Birmingham](https://www.uab.edu/home/)
 
-### Tuesday, May 31, 2022:
-**Lunch**: Computer set-up. James and/or Belle will be around to help make sure computers are set up.
-
 ### Wednesday, June 1, 2022:
 
 **8:00am - 8:15am**: Computer set-up This can be done anytime before bootcamp begins, but helpers will be available d.
