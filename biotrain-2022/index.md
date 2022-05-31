@@ -40,7 +40,7 @@ Please ensure you have the following software and data on the computer you inten
 
 
 **8:15am - 9:15am**: Bootcamp Introduction & An Introduction to Biology with Computers and Belle Moyers Computational Research
-(slides: [Biotrain-2022-Intro-Comp-Bio.pptx](Biotrain-2022-Intro-Comp-Bio))
+(slides: [Biotrain-2022-Intro-Comp-Bio.pptx](Biotrain-2022-Intro-Comp-Bio.pptx))
 *James Lawlor and Belle Moyers*
 
 
@@ -56,7 +56,8 @@ Please ensure you have the following software and data on the computer you inten
 **10:30am - 11:30am**: Programming with R, continued
 *Belle Moyers*
 
-**11:30am - 12:15pm**: How to Get Programming Help (slides: [Getting-Programming-Help_2022.pptx](Getting-Programming-Help_2022.pptx))
+**11:30am - 12:15pm**: How to Get Programming Help
+(slides: [Getting-Programming-Help_2022.pptx](Getting-Programming-Help_2022.pptx))
 *Belle Moyers*
 
 
