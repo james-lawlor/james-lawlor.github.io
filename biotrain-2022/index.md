@@ -40,7 +40,7 @@ Please ensure you have the following software and data on the computer you inten
 
 
 **8:15am - 9:15am**: Bootcamp Introduction & An Introduction to Biology with Computers and Belle Moyers Computational Research
-(slides: )
+(slides: [Biotrain-2022-Intro-Comp-Bio.pptx](Biotrain-2022-Intro-Comp-Bio))
 *James Lawlor and Belle Moyers*
 
 
@@ -56,16 +56,18 @@ Please ensure you have the following software and data on the computer you inten
 **10:30am - 11:30am**: Programming with R, continued
 *Belle Moyers*
 
-**11:30am - 12:15pm**: How to Get Programming Help (slides:)
+**11:30am - 12:15pm**: How to Get Programming Help (slides: [Getting-Programming-Help_2022.pptx](Getting-Programming-Help_2022.pptx))
 *Belle Moyers*
 
 
 ## Thursday, June 2, 2022:
 
 **8:00am - 8:30am** James Lawlor Computational Research
+(slides: [Biotrain-2022-GCooper-Lab.pptx](Biotrain-2022-GCooper-Lab.pptx))
 *James Lawlor*
 
 **8:30am - 8:45am** Keeping a Computational Lab Notebook
+(slides: [Lab-Notebook.pptx](Lab-Notebook.pptx))
 *James Lawlor*
 
 
@@ -84,7 +86,7 @@ Please ensure you have the following software and data on the computer you inten
 * [Working with Files and Directories](http://swcarpentry.github.io/shell-novice/03-create/)
 * **Stretch Goal**: Demo [Pipes](http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) and [Loops](http://swcarpentry.github.io/shell-novice/05-loop/index.html)
 
-**11:45am - 12:15pm**: What Now? (Continued Learning) (slides: )
+**11:45am - 12:15pm**: What Now? (Continued Learning) (slides: [What-Now-Continued-Learning.pptx](What-Now-Continued-Learning.pptx) )
 *James Lawlor*
 
 
