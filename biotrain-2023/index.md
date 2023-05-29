@@ -1,6 +1,8 @@
 # 2023 HudsonAlpha BioTrain Computational Biology Bootcamp
 ![2018 Bootcamp Photo](full-4.jpg)
 
+## Info 
+
 **Webpage Updates**
 - 05/23/2023:
   - Deployed website for 2023
@@ -20,12 +22,12 @@
 
 **Presenters:**
 - [James Lawlor](mailto:jlawlor@hudsonalpha.org) (he/him), Computational Biologist in the Greg Cooper Lab at HudsonAlpha
-- [Belle Moyers](mailto:bmoyers@hudsonalpha.org), (she/her) Senior Scientist in the Rick Myers Lab at HudsonAlpha
+- [Belle Moyers](mailto:bmoyers@hudsonalpha.org), PhD, (she/her) Senior Scientist in the Rick Myers Lab at HudsonAlpha
 
 **Course Development**
 Course content adapted from the Software Carpentries lessons and the 2018 Bootcamp organized by [Brittany Lasseigene, PhD](https://www.lasseigne.org), Assistant Professor at the [University of Alabama in Birmingham](https://www.uab.edu/home/)
 
-### Wednesday, May 31, 2023:
+## Wednesday, May 31, 2023:
 
 **8:00am - 8:15am**: Computer set-up.
 
@@ -33,11 +35,12 @@ Course content adapted from the Software Carpentries lessons and the 2018 Bootca
 
 [Mac: Changing your shell to bash](#setting-up-bash-shell-on-mac)
 
-#### Data Setup
+### Data Setup
 We will download the "shell lesson data" together as a group using the shell so that we can make sure it lands in a consistent location.
 We will use the following commands:
 ```
 # Copy from here
+cd
 curl --output shell-lesson-data.zip https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 curl --output r-novice-inflammation.zip https://swcarpentry.github.io/r-novice-inflammation/data/r-novice-inflammation-data.zip
 unzip -o shell-lesson-data.zip
@@ -52,6 +55,14 @@ rm r-novice-inflammation.zip
 ```
 Copy and paste this block into your terminal application and then hit enter. If you're using Windows, to paste into Git Bash you will right-click on the window and select paste from menu. This will run several commands to download and unzip the course data within a few seconds. 
 
+### Where is the data?
+We have put the data in your home directory on your computer. The path will look a bit different for everyone depending on your computer, but it may look like:
+Mac: `/Users/jameslawlor`
+Windows: `/c/Users/james`
+
+The unix shell data is in a subdirectory of your home directory called `shell-lesson-data` (i.e.`/Users/jameslawlor/shell-lesson-data`).
+The R data is in a subdirectory of your home directory called `r-novice-inflammation` and inside a subdirectory called (i.e.`/Users/jameslawlor/r-novice-inflammation/data`)
+
 Please ensure you have the following software and data on the computer you intend to use during the workshop:
 1. Make sure you have access to a Bash shell: use [Git BASH](https://gitforwindows.org/) for Windows; Terminal is the built-in program for Mac, however we will need to change the shell by running the command `bash`
 2. Install:
@@ -60,18 +71,9 @@ Please ensure you have the following software and data on the computer you inten
 3. Using the bash shell, we will all walk through downloading the lesson data together. See above under "Data Setup"
 
 
-**8:15am - 9:15am**: Bootcamp Introduction & An Introduction to Biology with Computers and James Lawlor Computational Research  
-(slides: [Biotrain-2022-Intro-Comp-Bio.pptx](Biotrain-2022-Intro-Comp-Bio.pptx))  
+**8:00am - 8:45am**: Bootcamp Introduction & An Introduction to Biology with Computers & James Lawlor Computational Research  
+(slides: [Biotrain-2022-Intro-Comp-Bio.pptx](Biotrain-2023-Intro-Comp-Bio.pptx))  
 *James Lawlor and Belle Moyers*
-
-**8:00am - 8:30am** James Lawlor Computational Research  
-(slides: [Biotrain-2022-GCooper-Lab.pptx](Biotrain-2022-GCooper-Lab.pptx))  
-*James Lawlor*
-
-**8:30am - 8:45am** Keeping a Computational Lab Notebook  
-(slides: [Lab-Notebook.pptx](Lab-Notebook.pptx))  
-*James Lawlor*
-
 
 **8:45-9:45**: Introduction to the Unix Shell  
 *James Lawlor*
@@ -88,10 +90,10 @@ Please ensure you have the following software and data on the computer you inten
 * [Working with Files and Directories](https://swcarpentry.github.io/shell-novice/03-create.html)
 * **Stretch Goal**: Demo [Pipes](https://swcarpentry.github.io/shell-novice/04-pipefilter.html) and [Loops](https://swcarpentry.github.io/shell-novice/05-loop.html)
 
-**11:45am - 12:15pm**: What Now? (Continued Learning) (slides: [What-Now-Continued-Learning.pptx](What-Now-Continued-Learning.pptx))  
+**11:45am - 12:15pm**: Keeping a Computational Lab Notebook  (slides: [Lab-Notebook.pptx](Lab-Notebook.pptx))  
 *James Lawlor*
 
-
+**12:15pm**: End of Day 1
 
 
 ## Thursday, June 1, 2023:
@@ -112,8 +114,10 @@ Please ensure you have the following software and data on the computer you inten
 
 **11:30am - 12:15pm**: How to Get Programming Help  
 (slides: [Getting-Programming-Help_2022.pptx](Getting-Programming-Help_2022.pptx))  
+What Now? (Continued Learning) (slides: [What-Now-Continued-Learning.pptx](What-Now-Continued-Learning.pptx))  
 *Belle Moyers*
 
+**12:15pm**: End of Day 2
 
 
 ### More Practice :
@@ -165,7 +169,7 @@ Other useful resources:
 4. Install R: [R Programming Language](https://cloud.r-project.org/). Click links for "Download R for Windows" and then "install R for the first time" and then the "Download R 4.1.0 for Windows" link to download the file. Navigate to your Downloads folder and run the installer. You will need to allow the installer to make changes to your computer, and you do not need to change any of the default installation options.
 5. Install RStudio: [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download). Choose the download link "Download RStudio For Windows". (This should work on Windows systems from the past several years.)
 6. Use the Start Menu or Desktop icon to open Git Bash
-7. Download 
+7. Download the course data during the walk-through.
 
 ### Setting up Bash Shell on Mac
 1. A few years ago, MacOS changed the default shell to `zsh` instead of `bash`. The two are similar, but for clarity we will use bash.
@@ -176,6 +180,7 @@ Other useful resources:
 6. You will be asked to enter your password, then hit enter. If there are no errors, you will be back at the prompt.
 7. Close Terminal and then re-open. You should see in the title bar of the window that it says "Terminal -- -bash"
 8. **Note**: This change will persist for your user profile. If you want to change it back after the bootcamp, you will use the command `chsh -s /bin/zsh`
+9. Download the course data during the walk-through.
 
 ### Setting up R and RStudio on MacOS
 1. Click on the Mac icon at the top left of your menu bar and choose "About this Mac". Under "Processor" look for whether it says Intel or M1. (M1 is found only on brand-new systems.) Then close the window.
