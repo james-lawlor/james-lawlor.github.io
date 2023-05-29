@@ -37,19 +37,23 @@ Course content adapted from the Software Carpentries lessons and the 2018 Bootca
 We will download the "shell lesson data" together as a group using the shell so that we can make sure it lands in a consistent location.
 We will use the following commands:
 ```
+# Copy from here
 curl --output shell-lesson-data.zip https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
-
 curl --output r-novice-inflammation.zip https://swcarpentry.github.io/r-novice-inflammation/data/r-novice-inflammation-data.zip
+unzip -o shell-lesson-data.zip
+mkdir r-novice-inflammation
+cd r-novice-inflammation
+unzip -o ../r-novice-inflammation.zip
+cd ..
+rm shell-lesson-data.zip
+rm r-novice-inflammation.zip
+# To here. Paste into the terminal and hit enter.
 
-unzip shell-lesson-data.zip
-
-unzip r-novice-inflammation.zip
 ```
-Copy and paste the first line into a terminal window and hit enter. Continue with the other commands in order. You don't need to worry about remembering or understanding what we're doing at this point.
-
+Copy and paste this block into your terminal application and then hit enter. If you're using Windows, to paste into Git Bash you will right-click on the window and select paste from menu. This will run several commands to download and unzip the course data within a few seconds. 
 
 Please ensure you have the following software and data on the computer you intend to use during the workshop:
-1. Make sure you have access to a [Bash Shell](http://swcarpentry.github.io/shell-novice/setup.html) (use [Git BASH](https://gitforwindows.org/) for Windows; Terminal is the built-in program for Mac, however we will need to change the shell to bash)
+1. Make sure you have access to a Bash shell: use [Git BASH](https://gitforwindows.org/) for Windows; Terminal is the built-in program for Mac, however we will need to change the shell by running the command `bash`
 2. Install:
   * a) [R Programming Language](https://cloud.r-project.org/)
   * b) [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download)
@@ -176,7 +180,7 @@ Other useful resources:
 ### Setting up R and RStudio on MacOS
 1. Click on the Mac icon at the top left of your menu bar and choose "About this Mac". Under "Processor" look for whether it says Intel or M1. (M1 is found only on brand-new systems.) Then close the window.
 2. Go to the Apple menu and select "About this mac" and look under Processor. Note whether you have an Intel process or an M1 or M2 (ARM) processor. 
-3. Go to [R Programming Language](https://cloud.r-project.org/) and select "Download R for MacOS". On this page, choose the first option `R-4.1.0.pkg`if you have an Intel processor. Choose the second option `R-4.1.0-arm64.pkg ` if you have a M1 or M2 processor.  
+3. Go to [R Programming Language](https://cloud.r-project.org/) and select "Download R for MacOS". On this page, choose the first option `R-4.3.0.pkg`if you have an Intel processor. Choose the second option `R-4.3.0-arm64.pkg ` if you have a M1 or M2 processor.  
 3. Open the pkg file from your Downloads folder and click through the installation wizard with default options. You may need to enter your password.
 4. Go to [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download). Click "Download RStudio for Mac".
 5. Open the pkg file. You will see a window open up with an RStudio icon which you will drag into the applications folder.
