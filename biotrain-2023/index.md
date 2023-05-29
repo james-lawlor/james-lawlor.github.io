@@ -5,9 +5,11 @@
 
 **Webpage Updates**
 - 05/23/2023:
-  - Deployed website for 2023
+  - Deployed website for 2023.
 - Changes from last year:
-  - 
+  - Restored course order to day 1 - unix; day 2 - R.
+  - Changed data download instructions to command line w/ walk through.
+  - Updated links to carpentries lessons.
 
 **Logistics**: The Bootcamp is Wednesday, May 31, 2023 and Thursday, June 1, 2023 (two half-days) in the Chan Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way) from 8:00am - 12:15pm each day.
 
@@ -17,7 +19,7 @@
 
 **Prerequisites**:
 - Curiosity about computational biology and a basic understanding of the ideas of files and directories (folders).
-- Access to a laptop (talk to Michelle Morris if you need to borrow one).
+- Access to a laptop (talk to Nikki and Yokshitha if you need to borrow one).
 - Ability to use your favorite web browser to download and install the necessary software and data (see below).
 
 **Presenters:**
