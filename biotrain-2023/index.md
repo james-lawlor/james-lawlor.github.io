@@ -62,7 +62,9 @@ We have put the data in your home directory on your computer. The path will look
 Mac: `/Users/jameslawlor`
 Windows: `/c/Users/james`
 
-The unix shell data is in a subdirectory of your home directory called `shell-lesson-data` (i.e.`/Users/jameslawlor/shell-lesson-data`).
+**IMPORTANT NOTE**: The Carpentries lessons assume that the data is located on your Desktop, i.e. at a path like `/Users/jameslawlor/Desktop/shell-lesson-data` however we have place it elsewhere because there is variation in where different computers store the desktop. This means we will ignore references to the Desktop while working through the lesson.
+
+Instead, the unix shell data is in a subdirectory of your home directory called `shell-lesson-data` (i.e.`/Users/jameslawlor/shell-lesson-data`).
 The R data is in a subdirectory of your home directory called `r-novice-inflammation` and inside a subdirectory called (i.e.`/Users/jameslawlor/r-novice-inflammation/data`)
 
 Please ensure you have the following software and data on the computer you intend to use during the workshop:
