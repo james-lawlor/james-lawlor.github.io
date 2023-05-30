@@ -100,7 +100,7 @@ Please ensure you have the following software and data on the computer you inten
 
 ## Thursday, June 1, 2023:
 
-**8:15am - 9:15am** Belle Moyers Computational Research (Slides)
+**8:15am - 9:15am** Belle Moyers Computational Research [Belle-Research-2023.pptx](Slides)
 
 **9:15am - 10:15am**: Programming with R  
 *Belle Moyers*
