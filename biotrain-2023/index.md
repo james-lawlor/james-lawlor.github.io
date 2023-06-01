@@ -1,5 +1,5 @@
 # 2023 HudsonAlpha BioTrain Computational Biology Bootcamp
-![2018 Bootcamp Photo](full-4.jpg)
+![2023 Bootcamp Photo](IMG_0527.jpg)
 
 ## Info 
 
