@@ -152,11 +152,11 @@ Other useful resources:
   * On windows, you are used to `ctrl+c` and `ctrl+v` to copy and paste. This will not work in Git-Bash window because `ctrl+c` and `ctrl+v` have different meanings in Unix
   * To copy:
     * Select text in the git-bash window with the mouse, and it will automatically be copied
-    * Or, use the left-click menu
+    * Or, use the right-click menu
     * Use `ctrl+insert` (some laptops may not have this as a separate key)
   * To paste:
     * Click with the middle mouse button
-    * Or, use the left-click menu
+    * Or, use the right-click menu
     * Use shift+insert (some laptops may not have this as a separate key)
 * Git-Bash represents Windows-style paths (with backslashes, `\`), like `C:\Users\James`, in the Unix style (with forward slashes, `/`), like `/c/Users/James`
 * The `ls` command should work on Git-Bash, but if not, use `dir`
@@ -188,7 +188,7 @@ Other useful resources:
 **Macbooks model years 2020-2021**: Either Intel or Silicon M1-M3 processor 
 **Macbook model years >= 2022**: ARM M1-M3 processor
 2. Go to the Apple menu and select "About this mac" and look under Processor. Note whether you have an Intel process or an M1-M3 (ARM) processor. 
-3. Go to [R Programming Language](https://cloud.r-project.org/) and select "Download R for MacOS". On this page, choose the Choose the first option `R-4.4.0-arm64.pkg ` if you have a Silicon (M1-M3) processor. second option `R-4.4.0-x86_64.pkg`if you have an older Intel processor. 
+3. Go to [R Programming Language](https://cloud.r-project.org/) and select "Download R for MacOS". Choose the first option `R-4.4.0-arm64.pkg ` if you have a Silicon (M1-M3) processor. Choose the second option `R-4.4.0-x86_64.pkg`if you have an older Intel processor. 
 3. Open the pkg file from your Downloads folder and click through the installation wizard with default options. You may need to enter your password.
 4. Go to [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download). Click "Download RStudio for Mac".
 5. Open the pkg file. You will see a window open up with an RStudio icon which you will drag into the applications folder.
