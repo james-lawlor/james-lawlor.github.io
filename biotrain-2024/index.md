@@ -1,56 +1,89 @@
-# 2024 HudsonAlpha BioTrain Computational Biology Bootcamp
-![2018 Bootcamp Photo](full-4.jpg)
+# 2023 HudsonAlpha BioTrain Computational Biology Bootcamp
+![2023 Bootcamp Photo](IMG_0527.jpg)
+
+## Info 
 
 **Webpage Updates**
-- 05/21/2024:
-  - Deployed website for 2024
+- 05/23/2023:
+  - Deployed website for 2023.
+- Changes from last year:
+  - Restored course order to day 1 - unix; day 2 - R.
+  - Changed data download instructions to command line w/ walk through.
+  - Updated links to carpentries lessons.
 
-**Logistics**: The Bootcamp is Wednesday, May 29 from 8 am - 12:30 pm and on Thursday, May 30 from 8 am - ~12:30 pm. (two half-days) in the Chan Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way).
+**Logistics**: The Bootcamp is Wednesday, May 31, 2023 and Thursday, June 1, 2023 (two half-days) in the Chan Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way) from 8:00am - 12:15pm each day.
+
+**COVID-19 Safety**: We will follow the current Institute guidelines for COVID-19 based on the current CDC status for our area. Masks will be optional for students.
 
 **Objective/Rationale:** This one day workshop is intended to provide HudsonAlpha BioTrain interns and graduate rotation students an introduction to computational biology through a discussion on why computers are necessary in genomics, short unix shell and R tutorials followed by hands-on exercises [The Carpentries lessons](https://carpentries.org/), and tips on how to ask for help, keeping a computational lab notebook, and finding additional learning resources.
 
 **Prerequisites**:
 - Curiosity about computational biology and a basic understanding of the ideas of files and directories (folders).
-- Access to a laptop (talk to Michelle Morris if you need to borrow one).
+- Access to a laptop (talk to Nikki and Yokshitha if you need to borrow one).
 - Ability to use your favorite web browser to download and install the necessary software and data (see below).
 
 **Presenters:**
 - [James Lawlor](mailto:jlawlor@hudsonalpha.org) (he/him), Computational Biologist in the Greg Cooper Lab at HudsonAlpha
-- [Stephanie Felker](mailto:sfelker@hudsonalpha.org), (she/her) Postdoctoral Researcher in the Greg Barsh Lab at HudsonAlpha
+- [Belle Moyers](mailto:bmoyers@hudsonalpha.org), PhD, (she/her) Senior Scientist in the Rick Myers Lab at HudsonAlpha
 
 **Course Development**
 Course content adapted from the Software Carpentries lessons and the 2018 Bootcamp organized by [Brittany Lasseigene, PhD](https://www.lasseigne.org), Assistant Professor at the [University of Alabama in Birmingham](https://www.uab.edu/home/)
 
-### Wednesday, May 29, 2024:
+## Wednesday, May 31, 2023:
 
-**7:45am to 8:00am**: Computer set-up This can be done anytime before bootcamp begins, but helpers will be available d.
+**8:00am - 8:15am**: Computer set-up.
 
 [Detailed Windows Setup Instructions](#detailed-windows-setup-instructions)
 
 [Mac: Changing your shell to bash](#setting-up-bash-shell-on-mac)
 
+### Data Setup
+We will download the "shell lesson data" together as a group using the shell so that we can make sure it lands in a consistent location.
+We will use the following commands:
+```
+# Copy from here
+cd
+curl --output shell-lesson-data.zip https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
+curl --output r-novice-inflammation.zip https://swcarpentry.github.io/r-novice-inflammation/data/r-novice-inflammation-data.zip
+unzip -o shell-lesson-data.zip
+mkdir r-novice-inflammation
+cd r-novice-inflammation
+unzip -o ../r-novice-inflammation.zip
+cd ..
+rm shell-lesson-data.zip
+rm r-novice-inflammation.zip
+# To here. Paste into the terminal and hit enter.
+
+```
+Copy and paste this block into your terminal application and then hit enter. If you're using Windows, to paste into Git Bash you will right-click on the window and select paste from menu. This will run several commands to download and unzip the course data within a few seconds. 
+
+### Where is the data?
+We have put the data in your home directory on your computer. The path will look a bit different for everyone depending on your computer, but it may look like:
+Mac: `/Users/jameslawlor`
+Windows: `/c/Users/james`
+
+**IMPORTANT NOTE**: The Carpentries lessons assume that the data is located on your Desktop, i.e. at a path like `/Users/jameslawlor/Desktop/shell-lesson-data` however we have place it elsewhere because there is variation in where different computers store the desktop. This means we will ignore references to the Desktop while working through the lesson.
+
+Instead, the unix shell data is in a subdirectory of your home directory called `shell-lesson-data` (i.e.`/Users/jameslawlor/shell-lesson-data`).
+The R data is in a subdirectory of your home directory called `r-novice-inflammation` and inside a subdirectory called (i.e.`/Users/jameslawlor/r-novice-inflammation/data`)
+
 Please ensure you have the following software and data on the computer you intend to use during the workshop:
-1. Make sure you have access to a [Bash Shell](http://swcarpentry.github.io/shell-novice/setup.html) (use [Git BASH](https://gitforwindows.org/) for Windows; Terminal is the built-in program for Mac, however we will need to change the shell to bash); and download the [data-shell.zip](http://swcarpentry.github.io/shell-novice/setup.html) file
+1. Make sure you have access to a Bash shell: use [Git BASH](https://gitforwindows.org/) for Windows; Terminal is the built-in program for Mac, however we will need to change the shell by running the command `bash`
 2. Install:
   * a) [R Programming Language](https://cloud.r-project.org/)
   * b) [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download)
-  * c) download the [r-novice-inflammation](https://swcarpentry.github.io/r-novice-inflammation/setup.html) data
+3. Using the bash shell, we will all walk through downloading the lesson data together. See above under "Data Setup"
 
 
-**8:00am to 8:15am**: Bootcamp Introduction & An Introduction to Biology with Computers and James Lawlor Computational Research  
-(slides: [Biotrain-2022-Intro-Comp-Bio.pptx](Biotrain-2022-Intro-Comp-Bio.pptx))  
-*James Lawlor and Stephanie Felker*
-
-
-**8:15-8:45am** James Lawlor Computational Research  
-(slides: [Biotrain-2022-GCooper-Lab.pptx](Biotrain-2022-GCooper-Lab.pptx))  
-*James Lawlor*
+**8:00am - 8:45am**: Bootcamp Introduction & An Introduction to Biology with Computers & James Lawlor Computational Research  
+(slides: [Biotrain-2022-Intro-Comp-Bio.pptx](Biotrain-2023-Intro-Comp-Bio.pptx))  
+*James Lawlor and Belle Moyers*
 
 **8:45-9:45**: Introduction to the Unix Shell  
 *James Lawlor*
 
-* [Introducing the Shell](http://swcarpentry.github.io/shell-novice/01-intro/)
-* [Navigating Files and Directories](http://swcarpentry.github.io/shell-novice/02-filedir/)
+* [Introducing the Shell](https://swcarpentry.github.io/shell-novice/01-intro.html)
+* [Navigating Files and Directories](https://swcarpentry.github.io/shell-novice/02-filedir.html)
 
 **9:45am - 10:00am**: Break
 
@@ -58,50 +91,46 @@ Please ensure you have the following software and data on the computer you inten
 **10:00 - 11:45am**: Unix Shell Continued  
 *James Lawlor*
 
-* [Working with Files and Directories](http://swcarpentry.github.io/shell-novice/03-create/)
-* **Stretch Goal**: Demo [Pipes](http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) and [Loops](http://swcarpentry.github.io/shell-novice/05-loop/index.html)
+* [Working with Files and Directories](https://swcarpentry.github.io/shell-novice/03-create.html)
+* **Stretch Goal**: Demo [Pipes](https://swcarpentry.github.io/shell-novice/04-pipefilter.html) and [Loops](https://swcarpentry.github.io/shell-novice/05-loop.html)
+
+**11:45am - 12:15pm**: Keeping a Computational Lab Notebook  (slides: [Lab-Notebook.pptx](Lab-Notebook.pptx))  
+*James Lawlor*
+
+**12:15pm**: End of Day 1
 
 
-**11:45am - 12:15pm**: How to Get Programming Help  
+## Thursday, June 1, 2023:
+
+**8:15am - 9:15am** Belle Moyers Computational Research Slides: [Belle-Research-2023.pptx](Belle-Research-2023.pptx)
+
+**9:15am - 10:15am**: Programming with R  
+*Belle Moyers*
+* [Analyzing Biology Data](http://swcarpentry.github.io/r-novice-inflammation/01-starting-with-data.html)
+* [Writing Functions](http://swcarpentry.github.io/r-novice-inflammation/02-func-R.html)
+* [Loops](http://swcarpentry.github.io/r-novice-inflammation/03-loops-R.html)
+
+
+**10:15am - 10:30am**: Break
+
+**10:30am - 11:30am**: Programming with R, continued  
+*Belle Moyers*
+
+**11:30am - 12:15pm**: How to Get Programming Help  
 (slides: [Getting-Programming-Help_2022.pptx](Getting-Programming-Help_2022.pptx))  
-*Stephanie Felker*
+What Now? (Continued Learning) (slides: [What-Now-Continued-Learning.pptx](What-Now-Continued-Learning.pptx))  
+*Belle Moyers*
 
-
-## Thursday, May 30, 2024:
-
-**8:00am - 8:30am** - Stephanie Felker Computational Research
-
-**8:30am - 8:45am** Keeping a Computational Lab Notebook  
-(slides: [Lab-Notebook.pptx](Lab-Notebook.pptx))  
-*James Lawlor*
-
-
-**8:45am - 10:00am**: Programming with R  
-*Stephanie Felker*
-* [Analyzing Biology Data](http://swcarpentry.github.io/r-novice-inflammation/01-starting-with-data/)
-* [Writing Functions](http://swcarpentry.github.io/r-novice-inflammation/02-func-R/)
-* [Analyzing Multiple Data Sets](http://swcarpentry.github.io/r-novice-inflammation/03-loops-R/)
-
-
-**10:00am - 10:15am**: Break
-
-**10:15am - 11:45am**: Programming with R, continued  
-*Stephanie Felker*
-
-
-
-**11:45am - 12:15pm**: What Now? (Continued Learning) (slides: [What-Now-Continued-Learning.pptx](What-Now-Continued-Learning.pptx))  
-*James Lawlor*
-
+**12:15pm**: End of Day 2
 
 
 ### More Practice :
 See the "What Now?" slides above.
 
 Check these shell lessons out if you:
-* want to combine existing shell commands: [Pipes and Filters](http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html)
-* perform the same action on many files in the shell: [Loops](http://swcarpentry.github.io/shell-novice/05-loop/index.html)
-* need to save and reuse shell commands: [Shell Scripts](http://swcarpentry.github.io/shell-novice/06-script/index.html)
+* want to combine existing shell commands: [Pipes and Filters](https://swcarpentry.github.io/shell-novice/04-pipefilter.html)
+* perform the same action on many files in the shell: [Loops](https://swcarpentry.github.io/shell-novice/05-loop.html)
+* need to save and reuse shell commands: [Shell Scripts](https://swcarpentry.github.io/shell-novice/06-script.html)
 
 
 Check these R lessons out if you:
@@ -135,20 +164,16 @@ Other useful resources:
     * Use shift+insert (some laptops may not have this as a separate key)
 * Git-Bash represents Windows-style paths (with backslashes, `\`), like `C:\Users\James`, in the Unix style (with forward slashes, `/`), like `/c/Users/James`
 * The `ls` command should work on Git-Bash, but if not, use `dir`
-* Unzipping `data-shell.zip`: You want to end up with a folder on your Desktop called `data-shell`, and inside it, folders like `creatures` and `molecules` and files like `notes.txt`. Some versions of Windows may automatically unzip the file such that you have a folder `data-shell` inside another folder called `data-shell` which may become confusing. See "Detailed Windows Setup Instructions" below.
+
 
 ### Detailed-Windows-Setup-Instructions
-1. We will be installing the most recent versions of all the software listed. Most likely, the exact version numbers won't be important, but version numbers from May 2021 are listed below for clarity. Most versions of Windows will ask "do you want to allow this program to make changes to your computer" when you're installing software. We will use default options on the install wizards.
-2. Download the [Git for Windows](https://gitforwindows.org/) installer (version 2.31.1). The download link should automatically choose the right installer for your version of Windows. Navigate to your Downloads folder and run the installer.
-3. Git 2.2.1.0 Setup: Use the default options in the "Select Components" screen and "Select Start Menu Folder". Use the default options in the following several screens.
+1. We will be installing the most recent versions of all the software listed. Most likely, the exact version numbers won't be important, but version numbers from May 2023 are listed below for clarity. Most versions of Windows will ask "do you want to allow this program to make changes to your computer" when you're installing software. We will use default options on the install wizards.
+2. Download the [Git for Windows](https://gitforwindows.org/) installer (version 2.40.1). The download link should automatically choose the right installer for your version of Windows. Navigate to your Downloads folder and run the installer.
+3. Git 2.40.1 Setup: Use the default options in the "Select Components" screen and "Select Start Menu Folder". Use the default options in the following several screens. *You may want to check "Additional Icons -> On the Desktop" to easily find this later.*
 4. Install R: [R Programming Language](https://cloud.r-project.org/). Click links for "Download R for Windows" and then "install R for the first time" and then the "Download R 4.1.0 for Windows" link to download the file. Navigate to your Downloads folder and run the installer. You will need to allow the installer to make changes to your computer, and you do not need to change any of the default installation options.
 5. Install RStudio: [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download). Choose the download link "Download RStudio For Windows". (This should work on Windows systems from the past several years.)
-6. Download the [data-shell](http://swcarpentry.github.io/shell-novice/data/data-shell.zip) data. Navigate to your Downloads folder and double-click the zip archive to open. Depending on your Windows setup, it should open as if it were a folder called `data-shell.zip` and contain a regular folder called `data-shell`. Select and drag this `data-shell` folder onto your Desktop.
-7. Make a new folder on your desktop called `r-novice-inflammation`. You can do this by right-clicking on the Desktop, going to "New" and choosing "Folder". Then type in the name and hit enter.
-8. Download the [r-novice-inflammation.zip](https://swcarpentry.github.io/r-novice-inflammation/data/r-novice-inflammation-data.zip) data. Navigate to your Downloads folder and double-click the zip archive to open. Depending on your Windows setup, it should open as if it were a folder called r-novice-inflammation.zip and contain a regular folder called `data`. Select and drag this `data` file into the `r-novice-inflammation` folder you made.
-9. Return to your desktop. Double click on the `data-shell` folder. You should see contents including `creatures` `data` `molecules` etc. Double click on the `r-novice-inflammation` folder. Inside you should see a single folder called `data`. Inside `data` you should see `car-speeds`, `car-speeds-cleaned` etc.
-10. **If you see an extra folder in step 9**: Some versions of Windows will extract the zip with an extraneous folder, such as `data-shell` with another `data-shell` folder inside. If this happens, rename the folder on the desktop to something like `old-data-shell` and then drag the `data-shell` folder onto your desktop.  
-10. Use the Start Menu or Desktop icon to open Git Bash or R Studio.
+6. Use the Start Menu or Desktop icon to open Git Bash
+7. Download the course data during the walk-through.
 
 ### Setting up Bash Shell on Mac
 1. A few years ago, MacOS changed the default shell to `zsh` instead of `bash`. The two are similar, but for clarity we will use bash.
@@ -159,10 +184,12 @@ Other useful resources:
 6. You will be asked to enter your password, then hit enter. If there are no errors, you will be back at the prompt.
 7. Close Terminal and then re-open. You should see in the title bar of the window that it says "Terminal -- -bash"
 8. **Note**: This change will persist for your user profile. If you want to change it back after the bootcamp, you will use the command `chsh -s /bin/zsh`
+9. Download the course data during the walk-through.
 
 ### Setting up R and RStudio on MacOS
 1. Click on the Mac icon at the top left of your menu bar and choose "About this Mac". Under "Processor" look for whether it says Intel or M1. (M1 is found only on brand-new systems.) Then close the window.
-2. Go to [R Programming Language](https://cloud.r-project.org/) and select "Download R for MacOS". On this page, choose the first option `R-4.1.0.pkg`if you have an Intel processor. Choose the second option `R-4.1.0-arm64.pkg ` if you have a M1 processor.
+2. Go to the Apple menu and select "About this mac" and look under Processor. Note whether you have an Intel process or an M1 or M2 (ARM) processor. 
+3. Go to [R Programming Language](https://cloud.r-project.org/) and select "Download R for MacOS". On this page, choose the first option `R-4.3.0.pkg`if you have an Intel processor. Choose the second option `R-4.3.0-arm64.pkg ` if you have a M1 or M2 processor.  
 3. Open the pkg file from your Downloads folder and click through the installation wizard with default options. You may need to enter your password.
 4. Go to [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download). Click "Download RStudio for Mac".
 5. Open the pkg file. You will see a window open up with an RStudio icon which you will drag into the applications folder.
