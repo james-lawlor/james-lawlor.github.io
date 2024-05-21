@@ -6,18 +6,16 @@
 **Webpage Updates**
 - 05/21/2024:
   - Deployed website for 2024.
-- Changes from last year:
-  - Restored course order to day 1 - unix; day 2 - R.
-  - Changed data download instructions to command line w/ walk through.
-  - Updated links to carpentries lessons.
+- Changes from last year
+  - None
 
-**Logistics**: The Bootcamp is Wednesday, May 29 from 8 am - 12:30 pm and on Thursday, May 30 from 8 am - 12:30 pm. (two half-days) in the Chan Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way).
+**Logistics**: The Bootcamp is Wednesday, May 29 from 8 am - 12:30 pm and on Thursday, May 30 from 8 am - 12:30 pm. (two half-days) in the Chan Auditorium on the second floor of the Paul Propst Center (800 Hudson Way).
 
-**Objective/Rationale:** This one day workshop is intended to provide HudsonAlpha BioTrain interns and graduate rotation students an introduction to computational biology through a discussion on why computers are necessary in genomics, short unix shell and R tutorials followed by hands-on exercises [The Carpentries lessons](https://carpentries.org/), and tips on how to ask for help, keeping a computational lab notebook, and finding additional learning resources.
+**Objective/Rationale:** This two day workshop is intended to provide HudsonAlpha BioTrain interns and graduate rotation students an introduction to computational biology through a discussion on why computers are necessary in genomics, short unix shell and R tutorials followed by hands-on exercises [The Carpentries lessons](https://carpentries.org/), and tips on how to ask for help, keeping a computational lab notebook, and finding additional learning resources.
 
 **Prerequisites**:
 - Curiosity about computational biology and a basic understanding of the ideas of files and directories (folders).
-- Access to a laptop (talk to Nikki and Yokshitha if you need to borrow one).
+- Access to a laptop (talk to Michele if you need to borrow one).
 - Ability to use your favorite web browser to download and install the necessary software and data (see below).
 
 **Presenters:**
@@ -74,7 +72,7 @@ Please ensure you have the following software and data on the computer you inten
 
 
 **8:00am - 8:45am**: Bootcamp Introduction & An Introduction to Biology with Computers & James Lawlor Computational Research  
-(slides: [Biotrain-2022-Intro-Comp-Bio.pptx](Biotrain-2024-Intro-Comp-Bio.pptx))  
+(slides: [Biotrain-2024-Intro-Comp-Bio.pptx](Biotrain-2024-Intro-Comp-Bio.pptx))  
 *James Lawlor and Stephanie Felker*
 
 **8:45-9:45**: Introduction to the Unix Shell  
@@ -100,7 +98,7 @@ Please ensure you have the following software and data on the computer you inten
 
 ## Thursday, May 30, 2024:
 
-**8:15am - 9:15am** Stephanie Felker Computational Research Slides: [Belle-Research-2023.pptx](Belle-Research-2023.pptx)
+**8:15am - 9:15am** Stephanie Felker Computational Research Slides: [SAF-computational-research-2024.pptx](SAF-computational-research-2024.pptx)
 
 **9:15am - 10:15am**: Programming with R  
 *Stephanie Felker*
