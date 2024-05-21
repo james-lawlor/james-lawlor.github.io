@@ -1,1 +1,1 @@
-### Hello. Are you looking for the [2023 BioTrain Computational Biology Workshop](biotrain-2023/index.html)?
+### Hello. Are you looking for the [2024 BioTrain Computational Biology Workshop](biotrain-2024/index.html)?
