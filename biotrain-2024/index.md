@@ -1,19 +1,17 @@
-# 2023 HudsonAlpha BioTrain Computational Biology Bootcamp
-![2023 Bootcamp Photo](IMG_0527.jpg)
+# 2024 HudsonAlpha BioTrain Computational Biology Bootcamp
+![2024 Bootcamp Photo](IMG_0527.jpg)
 
 ## Info 
 
 **Webpage Updates**
-- 05/23/2023:
-  - Deployed website for 2023.
+- 05/21/2024:
+  - Deployed website for 2024.
 - Changes from last year:
   - Restored course order to day 1 - unix; day 2 - R.
   - Changed data download instructions to command line w/ walk through.
   - Updated links to carpentries lessons.
 
-**Logistics**: The Bootcamp is Wednesday, May 31, 2023 and Thursday, June 1, 2023 (two half-days) in the Chan Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way) from 8:00am - 12:15pm each day.
-
-**COVID-19 Safety**: We will follow the current Institute guidelines for COVID-19 based on the current CDC status for our area. Masks will be optional for students.
+**Logistics**: The Bootcamp is Wednesday, May 29 from 8 am - 12:30 pm and on Thursday, May 30 from 8 am - 12:30 pm. (two half-days) in the Chan Teaching Lab on the second floor of the Paul Propst Center (800 Hudson Way).
 
 **Objective/Rationale:** This one day workshop is intended to provide HudsonAlpha BioTrain interns and graduate rotation students an introduction to computational biology through a discussion on why computers are necessary in genomics, short unix shell and R tutorials followed by hands-on exercises [The Carpentries lessons](https://carpentries.org/), and tips on how to ask for help, keeping a computational lab notebook, and finding additional learning resources.
 
@@ -24,12 +22,12 @@
 
 **Presenters:**
 - [James Lawlor](mailto:jlawlor@hudsonalpha.org) (he/him), Computational Biologist in the Greg Cooper Lab at HudsonAlpha
-- [Belle Moyers](mailto:bmoyers@hudsonalpha.org), PhD, (she/her) Senior Scientist in the Rick Myers Lab at HudsonAlpha
+- [Stephanie Felker](mailto:sfelker@hudsonalpha.org), PhD, (she/her) Senior Scientist in the Rick Myers Lab at HudsonAlpha
 
 **Course Development**
 Course content adapted from the Software Carpentries lessons and the 2018 Bootcamp organized by [Brittany Lasseigene, PhD](https://www.lasseigne.org), Assistant Professor at the [University of Alabama in Birmingham](https://www.uab.edu/home/)
 
-## Wednesday, May 31, 2023:
+##  Wednesday, May 29, 2024:
 
 **8:00am - 8:15am**: Computer set-up.
 
@@ -76,8 +74,8 @@ Please ensure you have the following software and data on the computer you inten
 
 
 **8:00am - 8:45am**: Bootcamp Introduction & An Introduction to Biology with Computers & James Lawlor Computational Research  
-(slides: [Biotrain-2022-Intro-Comp-Bio.pptx](Biotrain-2023-Intro-Comp-Bio.pptx))  
-*James Lawlor and Belle Moyers*
+(slides: [Biotrain-2022-Intro-Comp-Bio.pptx](Biotrain-2024-Intro-Comp-Bio.pptx))  
+*James Lawlor and Stephanie Felker*
 
 **8:45-9:45**: Introduction to the Unix Shell  
 *James Lawlor*
@@ -100,12 +98,12 @@ Please ensure you have the following software and data on the computer you inten
 **12:15pm**: End of Day 1
 
 
-## Thursday, June 1, 2023:
+## Thursday, May 30, 2024:
 
-**8:15am - 9:15am** Belle Moyers Computational Research Slides: [Belle-Research-2023.pptx](Belle-Research-2023.pptx)
+**8:15am - 9:15am** Stephanie Felker Computational Research Slides: [Belle-Research-2023.pptx](Belle-Research-2023.pptx)
 
 **9:15am - 10:15am**: Programming with R  
-*Belle Moyers*
+*Stephanie Felker*
 * [Analyzing Biology Data](http://swcarpentry.github.io/r-novice-inflammation/01-starting-with-data.html)
 * [Writing Functions](http://swcarpentry.github.io/r-novice-inflammation/02-func-R.html)
 * [Loops](http://swcarpentry.github.io/r-novice-inflammation/03-loops-R.html)
@@ -114,12 +112,12 @@ Please ensure you have the following software and data on the computer you inten
 **10:15am - 10:30am**: Break
 
 **10:30am - 11:30am**: Programming with R, continued  
-*Belle Moyers*
+*Stephanie Felker*
 
 **11:30am - 12:15pm**: How to Get Programming Help  
 (slides: [Getting-Programming-Help_2022.pptx](Getting-Programming-Help_2022.pptx))  
 What Now? (Continued Learning) (slides: [What-Now-Continued-Learning.pptx](What-Now-Continued-Learning.pptx))  
-*Belle Moyers*
+*Stephanie Felker*
 
 **12:15pm**: End of Day 2
 
