@@ -20,7 +20,7 @@
 
 **Presenters:**
 - [James Lawlor](mailto:jlawlor@hudsonalpha.org) (he/him), Computational Biologist in the Greg Cooper Lab at HudsonAlpha
-- [Stephanie Felker](mailto:sfelker@hudsonalpha.org), PhD, (she/her) Senior Scientist in the Rick Myers Lab at HudsonAlpha
+- [Stephanie Felker](mailto:sfelker@hudsonalpha.org), PhD, (she/her) Postdoctoral Fellow in the Greg Barsh Lab at HudsonAlpha
 
 **Course Development**
 Course content adapted from the Software Carpentries lessons and the 2018 Bootcamp organized by [Brittany Lasseigene, PhD](https://www.lasseigne.org), Assistant Professor at the [University of Alabama in Birmingham](https://www.uab.edu/home/)
@@ -98,9 +98,9 @@ Please ensure you have the following software and data on the computer you inten
 
 ## Thursday, May 30, 2024:
 
-**8:15am - 9:15am** Stephanie Felker Computational Research Slides: [SAF-computational-research-2024.pptx](SAF-computational-research-2024.pptx)
+**8:15am - 8:45am** Stephanie Felker Computational Research Slides: [SAF-computational-research-2024.pptx](SAF-computational-research-2024.pptx)
 
-**9:15am - 10:15am**: Programming with R  
+**8:45am - 10:15am**: Programming with R  
 *Stephanie Felker*
 * [Analyzing Biology Data](http://swcarpentry.github.io/r-novice-inflammation/01-starting-with-data.html)
 * [Writing Functions](http://swcarpentry.github.io/r-novice-inflammation/02-func-R.html)
