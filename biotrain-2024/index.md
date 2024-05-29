@@ -39,8 +39,8 @@ We will use the following commands:
 ```
 # Copy from here
 cd
-curl --output shell-lesson-data.zip https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
-curl --output r-novice-inflammation.zip https://swcarpentry.github.io/r-novice-inflammation/data/r-novice-inflammation-data.zip
+curl -k --output shell-lesson-data.zip https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
+curl -k --output r-novice-inflammation.zip https://swcarpentry.github.io/r-novice-inflammation/data/r-novice-inflammation-data.zip
 unzip -o shell-lesson-data.zip
 mkdir r-novice-inflammation
 cd r-novice-inflammation
